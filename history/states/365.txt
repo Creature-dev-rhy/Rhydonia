@@ -1,0 +1,44 @@
+
+state={
+	id=365
+	name="STATE_365"
+	manpower = 2742521
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = ALM
+buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			3132 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = ALM
+			add_core_of = ALM
+		}
+	}
+
+	provinces={
+		3131 3132 3133 3134 3135 3136 3137 3138 3139 
+	}
+	local_supplies=0.0 
+}

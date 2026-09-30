@@ -1,0 +1,39 @@
+
+state={
+	id=809
+	name="STATE_809"
+	manpower = 573650
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = ROO
+		add_core_of = ROO
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		6083 6084 6085 6086 6087 6088 6089 6090 6091 
+	}
+	local_supplies=0.0 
+}

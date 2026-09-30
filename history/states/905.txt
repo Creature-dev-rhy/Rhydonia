@@ -1,0 +1,39 @@
+
+state={
+	id=905
+	name="STATE_905"
+	manpower = 1527338
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=5
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = TAN
+		add_core_of = TAN
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		6645 6646 6647 6648 6649 6650 
+	}
+	local_supplies=0.0 
+}

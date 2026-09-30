@@ -1,0 +1,44 @@
+
+state={
+	id=1867
+	name="STATE_1867"
+	manpower = 1836191
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=7
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = JUR
+		add_core_of = JUR
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = JUR
+			add_core_of = JUR
+		}
+	}
+
+	provinces={
+		12768 12769 12770 12771 12772 12773 12774 
+	}
+	local_supplies=0.0 
+}

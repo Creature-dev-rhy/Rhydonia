@@ -1,0 +1,39 @@
+
+state={
+	id=971
+	name="STATE_971"
+	manpower = 636718
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = EKE
+		add_core_of = EKE
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		7039 7040 7041 7042 
+	}
+	local_supplies=0.0 
+}

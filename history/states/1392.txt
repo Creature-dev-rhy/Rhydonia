@@ -1,0 +1,39 @@
+
+state={
+	id=1392
+	name="STATE_1392"
+	manpower = 46056
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		9352 9353 9354 9355 9356 9357 9358 9359 9360 9361 9362 9363 9364 
+	}
+	local_supplies=0.0 
+}

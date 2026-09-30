@@ -1,0 +1,39 @@
+
+state={
+	id=79
+	name="STATE_79"
+	manpower = 3292892
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = MOS
+		add_core_of = MOS
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		1097 1098 1099 1100 1101 1102 1103 1104 1105 1106 1107 
+	}
+	local_supplies=0.0 
+}

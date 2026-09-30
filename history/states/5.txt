@@ -1,0 +1,42 @@
+
+state={
+	id=5
+	name="STATE_5"
+	manpower = 103034
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=2
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			73 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		73 
+	}
+	local_supplies=0.0 
+}

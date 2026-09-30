@@ -1,0 +1,42 @@
+
+state={
+	id=50
+	name="STATE_50"
+	manpower = 918052
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=6
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			595 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		594 595 596 597 598 
+	}
+	local_supplies=0.0 
+}

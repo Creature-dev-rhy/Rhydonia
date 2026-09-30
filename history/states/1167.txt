@@ -1,0 +1,42 @@
+
+state={
+	id=1167
+	name="STATE_1167"
+	manpower = 4150724
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=22
+		chromium=24
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=23
+		coal=57
+	}
+
+	history={
+		owner = MOS
+		add_core_of = MOS
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 1
+			7978 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		7977 7978 7979 7980 7981 7982 7983 7984 7985 7986 7987 7988 
+	}
+	local_supplies=0.0 
+}

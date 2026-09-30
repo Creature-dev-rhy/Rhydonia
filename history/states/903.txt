@@ -1,0 +1,47 @@
+
+state={
+	id=903
+	name="STATE_903"
+	manpower = 1342809
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GOZ
+		add_core_of = GOZ
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6640 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = GOZ
+			add_core_of = GOZ
+		}
+	}
+
+	provinces={
+		6639 6640 6641 6642 
+	}
+	local_supplies=0.0 
+}

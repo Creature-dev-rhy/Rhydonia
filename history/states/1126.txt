@@ -1,0 +1,42 @@
+
+state={
+	id=1126
+	name="STATE_1126"
+	manpower = 1746142
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GAV
+		add_core_of = GAV
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			7738 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		7736 7737 7738 7739 7740 7741 7742 7743 7744 7745 7746 7747 7748 7749 7750 7751 
+	}
+	local_supplies=0.0 
+}

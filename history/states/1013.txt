@@ -1,0 +1,39 @@
+
+state={
+	id=1013
+	name="STATE_1013"
+	manpower = 1672987
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GAM
+		add_core_of = GAM
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		7240 7241 7242 7243 7244 
+	}
+	local_supplies=0.0 
+}

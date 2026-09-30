@@ -1,0 +1,42 @@
+
+state={
+	id=1479
+	name="STATE_1479"
+	manpower = 734952
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = DAM
+		add_core_of = DAM
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			9978 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		9978 9979 
+	}
+	local_supplies=0.0 
+}

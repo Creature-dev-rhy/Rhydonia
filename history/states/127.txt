@@ -1,0 +1,42 @@
+
+state={
+	id=127
+	name="STATE_127"
+	manpower = 1847356
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = TAN
+		add_core_of = TAN
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			1420 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		1419 1420 1421 1422 1423 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=1909
+	name="STATE_1909"
+	manpower = 1550200
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			13010 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		13006 13007 13008 13009 13010 13011 13012 
+	}
+	local_supplies=0.0 
+}

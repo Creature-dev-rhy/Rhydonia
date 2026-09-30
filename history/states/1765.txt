@@ -1,0 +1,39 @@
+
+state={
+	id=1765
+	name="STATE_1765"
+	manpower = 1886263
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = KOS
+		add_core_of = KOS
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		12037 12038 12039 12040 12041 12042 12043 12044 12045 
+	}
+	local_supplies=0.0 
+}

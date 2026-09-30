@@ -1,0 +1,39 @@
+
+state={
+	id=1481
+	name="STATE_1481"
+	manpower = 335699
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = LAV
+		add_core_of = LAV
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		9981 9982 9983 9984 9985 9986 9987 9988 9989 9990 9991 9992 
+	}
+	local_supplies=0.0 
+}

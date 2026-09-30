@@ -1,0 +1,39 @@
+
+state={
+	id=979
+	name="STATE_979"
+	manpower = 386248
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = HOG
+		add_core_of = HOG
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		7080 
+	}
+	local_supplies=0.0 
+}

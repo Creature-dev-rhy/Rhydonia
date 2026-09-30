@@ -1,0 +1,42 @@
+
+state={
+	id=1367
+	name="STATE_1367"
+	manpower = 2079511
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = MOS
+		add_core_of = MOS
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			9212 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		9207 9208 9209 9210 9211 9212 9213 
+	}
+	local_supplies=0.0 
+}

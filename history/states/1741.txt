@@ -1,0 +1,44 @@
+
+state={
+	id=1741
+	name="STATE_1741"
+	manpower = 646267
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=4
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=4
+		coal=10
+	}
+
+	history={
+		owner = JUR
+		add_core_of = JUR
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = JUR
+			add_core_of = JUR
+		}
+	}
+
+	provinces={
+		11851 11852 11853 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=842
+	name="STATE_842"
+	manpower = 1192317
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6301 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		6300 6301 6302 6303 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,47 @@
+
+state={
+	id=1907
+	name="STATE_1907"
+	manpower = 3960542
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GOZ
+		add_core_of = GOZ
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			12995 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = GOZ
+			add_core_of = GOZ
+		}
+	}
+
+	provinces={
+		12994 12995 12996 12997 12998 12999 13000 13001 13002 13003 13004 
+	}
+	local_supplies=0.0 
+}

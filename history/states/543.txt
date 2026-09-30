@@ -1,0 +1,42 @@
+
+state={
+	id=543
+	name="STATE_543"
+	manpower = 660506
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = DAX
+		add_core_of = DAX
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			4457 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		4456 4457 
+	}
+	local_supplies=0.0 
+}

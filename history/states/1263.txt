@@ -1,0 +1,39 @@
+
+state={
+	id=1263
+	name="STATE_1263"
+	manpower = 201525
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = QWA
+		add_core_of = QWA
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		8545 8546 8547 8548 8549 8550 8551 8552 8553 8554 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=1855
+	name="STATE_1855"
+	manpower = 5433645
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = JUR
+		add_core_of = JUR
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = JUR
+			add_core_of = JUR
+		}
+	}
+
+	provinces={
+		12661 12662 12663 12664 12665 12666 12667 12668 12669 12670 12671 12672 12673 12674 12675 12676 12677 
+	}
+	local_supplies=0.0 
+}

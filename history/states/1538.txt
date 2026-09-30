@@ -1,0 +1,39 @@
+
+state={
+	id=1538
+	name="STATE_1538"
+	manpower = 1418449
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = EKE
+		add_core_of = EKE
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		10358 10359 10360 10361 10362 10363 10364 10365 10366 10367 10368 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=1251
+	name="STATE_1251"
+	manpower = 2930685
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = QWA
+		add_core_of = QWA
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			8484 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		8472 8473 8474 8475 8476 8477 8478 8479 8480 8481 8482 8483 8484 8485 
+	}
+	local_supplies=0.0 
+}

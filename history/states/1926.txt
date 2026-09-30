@@ -1,0 +1,44 @@
+
+state={
+	id=1926
+	name="STATE_1926"
+	manpower = 2518983
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GOZ
+		add_core_of = GOZ
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = GOZ
+			add_core_of = GOZ
+		}
+	}
+
+	provinces={
+		13128 13129 13130 13131 13132 13133 13134 
+	}
+	local_supplies=0.0 
+}

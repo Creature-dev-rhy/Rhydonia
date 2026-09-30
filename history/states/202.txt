@@ -1,0 +1,39 @@
+
+state={
+	id=202
+	name="STATE_202"
+	manpower = 292129
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = TAN
+		add_core_of = TAN
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		2006 2007 2008 
+	}
+	local_supplies=0.0 
+}

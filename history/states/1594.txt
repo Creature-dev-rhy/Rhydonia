@@ -1,0 +1,42 @@
+
+state={
+	id=1594
+	name="STATE_1594"
+	manpower = 556617
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = MOS
+		add_core_of = MOS
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			10799 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		10799 
+	}
+	local_supplies=0.0 
+}

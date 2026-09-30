@@ -1,0 +1,42 @@
+
+state={
+	id=1953
+	name="STATE_1953"
+	manpower = 3282494
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			13267 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		13257 13258 13259 13260 13261 13262 13263 13264 13265 13266 13267 13268 13269 13270 13271 13272 13273 13274 13275 13276 13277 13278 13279 13280 
+	}
+	local_supplies=0.0 
+}

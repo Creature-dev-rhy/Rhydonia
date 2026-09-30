@@ -1,0 +1,39 @@
+
+state={
+	id=197
+	name="STATE_197"
+	manpower = 1524030
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = UHT
+		add_core_of = UHT
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		1983 1984 1985 1986 
+	}
+	local_supplies=0.0 
+}

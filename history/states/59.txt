@@ -1,0 +1,40 @@
+
+state={
+	id=59
+	name="STATE_59"
+	manpower = 1080909
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=4
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=4
+		coal=10
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			793 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		790 791 792 793 794 795 796 797 798 799 800 801 802 
+	}
+	local_supplies=0.0 
+}

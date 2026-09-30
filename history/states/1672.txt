@@ -1,0 +1,42 @@
+
+state={
+	id=1672
+	name="STATE_1672"
+	manpower = 517660
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = ROO
+		add_core_of = ROO
+}
+	}
+
+	provinces={
+		11372 
+	}
+	local_supplies=0.0 
+}

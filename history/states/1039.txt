@@ -1,0 +1,39 @@
+
+state={
+	id=1039
+	name="STATE_1039"
+	manpower = 792906
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = BRO
+		add_core_of = BRO
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		7351 7352 
+	}
+	local_supplies=0.0 
+}

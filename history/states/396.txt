@@ -1,0 +1,42 @@
+
+state={
+	id=396
+	name="STATE_396"
+	manpower = 776039
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = PET
+		add_core_of = PET
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			3414 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		3414 3415 
+	}
+	local_supplies=0.0 
+}

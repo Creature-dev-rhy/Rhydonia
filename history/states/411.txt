@@ -1,0 +1,42 @@
+
+state={
+	id=411
+	name="STATE_411"
+	manpower = 1676709
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=4
+	}
+
+	history={
+		owner = GEH
+		add_core_of = GEH
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			3515 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		3512 3513 3514 3515 3516 3517 3518 3519 3520 3521 3522 3523 3524 
+	}
+	local_supplies=0.0 
+}

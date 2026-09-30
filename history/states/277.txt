@@ -1,0 +1,40 @@
+
+state={
+	id=277
+	name="STATE_277"
+	manpower = 3493801
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = AUT
+		add_core_of = AUT
+buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			2493 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		2493 2494 2495 2496 2497 2498 2499 2500 2501 2502 
+	}
+	local_supplies=0.0 
+}

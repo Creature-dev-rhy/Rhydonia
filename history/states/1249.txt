@@ -1,0 +1,42 @@
+
+state={
+	id=1249
+	name="STATE_1249"
+	manpower = 954033
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=1
+		coal=1
+	}
+
+	history={
+		owner = LAV
+		add_core_of = LAV
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			8463 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		8463 8464 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=1026
+	name="STATE_1026"
+	manpower = 1356318
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=4
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=4
+		coal=9
+	}
+
+	history={
+		owner = JUR
+		add_core_of = JUR
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = JUR
+			add_core_of = JUR
+		}
+	}
+
+	provinces={
+		7291 7292 7293 7294 7295 7296 7297 7298 7299 
+	}
+	local_supplies=0.0 
+}

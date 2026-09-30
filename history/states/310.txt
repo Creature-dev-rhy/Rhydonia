@@ -1,0 +1,42 @@
+
+state={
+	id=310
+	name="STATE_310"
+	manpower = 7671928
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=5
+	}
+
+	history={
+		owner = POR
+		add_core_of = POR
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 4
+			dockyard = 1
+			2710 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		2699 2700 2701 2702 2703 2704 2705 2706 2707 2708 2709 2710 2711 2712 2713 2714 2715 2716 2717 2718 2719 2720 2721 2722 
+	}
+	local_supplies=0.0 
+}

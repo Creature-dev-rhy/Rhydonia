@@ -1,0 +1,39 @@
+
+state={
+	id=857
+	name="STATE_857"
+	manpower = 804995
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=5
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = BRI
+add_core_of = BRI
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		6386 6387 6388 
+	}
+	local_supplies=0.0 
+}

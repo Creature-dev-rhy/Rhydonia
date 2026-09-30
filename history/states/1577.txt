@@ -1,0 +1,39 @@
+
+state={
+	id=1577
+	name="STATE_1577"
+	manpower = 4610137
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = WIL
+		add_core_of = WIL
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		
+	}
+
+	provinces={
+		10679 10680 10681 10682 10683 10684 10685 10686 10687 10688 10689 10690 10691 10692 10693 
+	}
+	local_supplies=0.0 
+}

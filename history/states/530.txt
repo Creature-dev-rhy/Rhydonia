@@ -1,0 +1,42 @@
+
+state={
+	id=530
+	name="STATE_530"
+	manpower = 1473338
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			4409 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		4408 4409 4410 4411 
+	}
+	local_supplies=0.0 
+}

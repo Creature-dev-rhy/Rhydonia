@@ -1,0 +1,39 @@
+
+state={
+	id=1810
+	name="STATE_1810"
+	manpower = 747567
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = THO
+		add_core_of = THO
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		12343 12344 
+	}
+	local_supplies=0.0 
+}

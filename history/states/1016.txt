@@ -1,0 +1,42 @@
+
+state={
+	id=1016
+	name="STATE_1016"
+	manpower = 137239
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = BOR
+		add_core_of = BOR
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			7255 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		7254 7255 7256 7257 7258 7259 7260 7261 7262 7263 7264 7265 7266 7267 7268 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=1061
+	name="STATE_1061"
+	manpower = 1119141
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = LAV
+		add_core_of = LAV
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		7454 7455 7456 7457 
+	}
+	local_supplies=0.0 
+}

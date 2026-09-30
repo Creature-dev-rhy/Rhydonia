@@ -1,0 +1,42 @@
+
+state={
+	id=1743
+	name="STATE_1743"
+	manpower = 6471833
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=2
+		oil=5
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=4
+	}
+
+	history={
+		owner = GEH
+		add_core_of = GEH
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 2
+			industrial_complex = 3
+			
+			11877 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		11855 11856 11857 11858 11859 11860 11861 11862 11863 11864 11865 11866 11867 11868 11869 11870 11871 11872 11873 11874 11875 11876 11877 
+	}
+	local_supplies=0.0 
+}

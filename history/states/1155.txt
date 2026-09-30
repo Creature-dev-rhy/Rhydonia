@@ -1,0 +1,42 @@
+
+state={
+	id=1155
+	name="STATE_1155"
+	manpower = 4216133
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=19
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = TAN
+		add_core_of = TAN
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			7911 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		7910 7911 7912 7913 7914 7915 7916 7917 7918 7919 7920 7921 7922 
+	}
+	local_supplies=0.0 
+}

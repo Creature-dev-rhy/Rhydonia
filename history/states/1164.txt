@@ -1,0 +1,42 @@
+
+state={
+	id=1164
+	name="STATE_1164"
+	manpower = 921794
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = MED
+		add_core_of = MED
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			7970 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		7968 7969 7970 
+	}
+	local_supplies=0.0 
+}

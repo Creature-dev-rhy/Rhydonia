@@ -1,0 +1,42 @@
+
+state={
+	id=301
+	name="STATE_301"
+	manpower = 1628443
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			2635 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		2631 2632 2633 2634 2635 2636 
+	}
+	local_supplies=0.0 
+}

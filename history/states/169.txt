@@ -1,0 +1,42 @@
+
+state={
+	id=169
+	name="STATE_169"
+	manpower = 1589185
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=11
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GAN
+		add_core_of = GAN
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			1759 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		1752 1753 1754 1755 1756 1757 1758 1759 1760 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=1803
+	name="STATE_1803"
+	manpower = 2055358
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=9
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GEH
+		add_core_of = GEH
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			12307 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		12306 12307 12308 12309 12310 12311 
+	}
+	local_supplies=0.0 
+}

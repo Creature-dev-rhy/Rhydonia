@@ -1,0 +1,44 @@
+
+state={
+	id=1206
+	name="STATE_1206"
+	manpower = 1151281
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = ALM
+buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			8135 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = ALM
+			add_core_of = ALM
+		}
+	}
+
+	provinces={
+		8134 8135 8136 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=347
+	name="STATE_347"
+	manpower = 834095
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GOZ
+		add_core_of = GOZ
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = GOZ
+			add_core_of = GOZ
+		}
+	}
+
+	provinces={
+		3041 3042 
+	}
+	local_supplies=0.0 
+}

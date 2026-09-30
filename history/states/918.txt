@@ -1,0 +1,39 @@
+
+state={
+	id=918
+	name="STATE_918"
+	manpower = 1683459
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = ESA
+		add_core_of = ESA
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		6705 6706 6707 6708 6709 6710 
+	}
+	local_supplies=0.0 
+}

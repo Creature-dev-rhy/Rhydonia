@@ -1,0 +1,42 @@
+
+state={
+	id=1826
+	name="STATE_1826"
+	manpower = 2902396
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = THO
+		add_core_of = THO
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			12457 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		12450 12451 12452 12453 12454 12455 12456 12457 12458 12459 12460 
+	}
+	local_supplies=0.0 
+}

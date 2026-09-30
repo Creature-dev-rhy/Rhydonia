@@ -1,0 +1,42 @@
+
+state={
+	id=152
+	name="STATE_152"
+	manpower = 1573376
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = LEM
+		add_core_of = LEM
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			1640 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		1634 1635 1636 1637 1638 1639 1640 1641 1642 
+	}
+	local_supplies=0.0 
+}

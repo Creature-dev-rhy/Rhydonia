@@ -1,0 +1,39 @@
+
+state={
+	id=178
+	name="STATE_178"
+	manpower = 3161750
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=15
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = UHT
+		add_core_of = UHT
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		1816 1817 1818 1819 1820 1821 1822 1823 1824 1825 
+	}
+	local_supplies=0.0 
+}

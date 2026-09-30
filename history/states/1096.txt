@@ -1,0 +1,42 @@
+
+state={
+	id=1096
+	name="STATE_1096"
+	manpower = 108635
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GAN
+		add_core_of = GAN
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			7606 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		7606 
+	}
+	local_supplies=0.0 
+}

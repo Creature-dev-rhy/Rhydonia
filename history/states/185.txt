@@ -1,0 +1,42 @@
+
+state={
+	id=185
+	name="STATE_185"
+	manpower = 1368738
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			1879 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		1878 1879 1880 1881 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,110 @@
+﻿l_english:
+
+
+ national_unionism:0 "National Unionist"
+ national_unionism_noun:0 "National Unionism"
+ national_unionism_desc:0 "Democratic Fascism"
+ national_republicanism:0 "National Republicanist"
+ national_republicanism_noun:0 "National Republicanism"
+ national_republicanism_desc:0 "National Republicanism with extra steps"
+ national_populism:0 "National Populist"
+ national_populism_noun:0 "National Populism"
+ national_populism_desc:0 "Nationalism and Populism"
+
+ 
+
+ autocracy:0 "Autocrat"
+ autocracy_noun:0 "Autocracy"
+ autocracy_desc:0 "I FUCKING LOVE autocracy"
+ despotism:0 "despotist"
+ despotism_noun:0 "despotism"
+ despotism_desc:0 "me when i despotism"
+ oligarchism:0 "oligarchist"
+ oligarchism_noun:0 "oligarchism"
+ oligarchism_desc:0 "the council of rich russians are looking for you"
+ absolute_monarchy:0 "Absolute Monarchist"
+ absolute_monarchy_noun:0 "Absolute Monarchy"
+ absolute_monarchy_desc:0 "ohhhh im kinging it so good"
+ authoritarian_democracy:0 "Authoritarian Democrat"
+ authoritarian_democracy_noun:0 "Authoritarian Democracy"
+ authoritarian_democracy_desc:0 "Authoritarian BUT democratic in a way"
+ military_government:0 "Militaristic Government"
+ military_government_noun:0 "Military Government"
+ military_government_desc:0 "RUN THE GOVERNMENT, MARINES ORRAAAHHHHH"
+ populism:0 "Populist"
+ populism_noun:0 "Populism"
+ populism_desc:0 "i love population, billions must be born"
+
+
+
+
+ anarchism:0 "Anarchist"
+ anarchism_noun:0 "Anarchism"
+ anarchism_desc:0 "kill yourself already"
+ anarcho_socialism:0 "Anarcho Socialist"
+ anarcho_socialism_noun:0 "Anarcho Socialism"
+ anarcho_socialism_desc:0 "i need you to wash yourself with gasoline, then tie a rope around your neck right next to a bridge. then i need you to light yourself on fire and jump."
+ anarcho_capitalism:0 "Anarcho Capitalist"
+ anarcho_capitalism_noun:0 "Anarcho Capitalism"
+ anarcho_capitalism_desc:0 "okay its a bit better but still hang yourself"
+
+
+
+ liberal_democracy:0 "Liberal Democrat"
+ liberal_democracy_noun:0 "Liberal Democrat"
+ liberal_democracy_desc:0 "uhhh idk its kinda libreal and slightly democratic"
+ market_liberalism:0 "Market Liberalist"
+ market_liberalism_noun:0 "Market Liberalism"
+ market_liberalism_desc:0 "grarket gribrelism"
+ social_liberalism:0 "Social Liberalist"
+ social_liberalism_noun:0 "Social Liberalism"
+ social_liberalism_desc:0 "i hate socialising"
+ liberal_interventionism:0 "Liberal Interventionist"
+ liberal_interventionism_noun:0 "Liberal Interventionism"
+ liberal_interventionism_desc:0 "long live the fehlinger doctrine"
+
+ conservative_democracy:0 "Conservative Democrat"
+ conservative_democracy_noun:0 "Conservative Democracy"
+ conservative_democracy_desc:0 "guh guh guhgghgh"
+ centrism:0 "Centrist"
+ centrism_noun:0 "Centrism"
+ centrism_desc:0 "im in the middle guys!"
+ luminnantic_democracy:0 "Luminnantic Democrat"
+ luminnantic_democracy_noun:0 "Luminnantic Democracy"
+ luminnantic_democracy_desc:0 "i dont fucking know what this means"
+ constitutional_monarchism:0 "Constitutional Monarchist"
+ constitutional_monarchism_noun:0 "Constitutional Monarchism"
+ constitutional_monarchism_desc:0 "monarchy but democratic"
+
+ social_democracy:0 "Social Democrat"
+ social_democracy_noun:0 "Social Democracy"
+ social_democracy_desc:0 "vanilla ice cream of politics"
+ liberal_technocracy:0 "Liberal Technocrat"
+ liberal_technocracy_noun:0 "Liberal Technocracy"
+ liberal_technocracy_desc:0 "you vill use my izpohnes"
+ social_democracy:0 "Social Democrat"
+ social_democracy_noun:0 "Social Democracy"
+ social_democracy_desc:0 "gleb"
+ conservative_socialism:0 "Conservative Socialist"
+ conservative_socialism_noun:0 "Conservative socialism"
+ conservative_socialism_desc:0 "meg grifflem"
+
+ combineism:0 "Combineist"
+ combineism_noun:0 "Combineism"
+ combineism_desc:0 "communism but rhydonian"
+ totalitarian_socialism:0 "Totalitarian Socialist"
+ totalitarian_socialism_noun:0 "Totalitarian Socialism"
+ totalitarian_socialism_desc:0 "socialism but even more bad"
+ techno_socialism:0 "Techno Socialist"
+ techno_socialism_noun:0 "Techno Socialism"
+ techno_socialism_desc:0 "china"
+ synthesism:0 "Synthesist"
+ synthesism_noun:0 "Synthesism"
+ synthesism_desc:0 "wurt"
+
+
+
+# this is the template 
+ _____:0
+ _____ _noun:0
+ _____ _desc:0

@@ -1,0 +1,39 @@
+
+state={
+	id=116
+	name="STATE_116"
+	manpower = 6283208
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=19
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = KAV
+		add_core_of = KAV
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		
+	}
+
+	provinces={
+		1335 1336 1337 1338 1339 1340 1341 1342 1343 1344 1345 1346 1347 1348 1349 1350 1351 1352 1353 1354 1355 1356 1357 1358 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=307
+	name="STATE_307"
+	manpower = 1442394
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=8
+		chromium=9
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=8
+		coal=21
+	}
+
+	history={
+		owner = MEI
+		add_core_of = MEI
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		2681 2682 2683 2684 2685 
+	}
+	local_supplies=0.0 
+}

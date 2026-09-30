@@ -1,0 +1,39 @@
+
+state={
+	id=1896
+	name="STATE_1896"
+	manpower = 1277798
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=14
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = BRO
+		add_core_of = BRO
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		12933 12934 12935 12936 12937 12938 12939 12940 
+	}
+	local_supplies=0.0 
+}

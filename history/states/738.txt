@@ -1,0 +1,42 @@
+
+state={
+	id=738
+	name="STATE_738"
+	manpower = 3462676
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = TIA
+		add_core_of = TIA
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			5709 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5705 5706 5707 5708 5709 5710 5711 5712 5713 5714 5715 
+	}
+	local_supplies=0.0 
+}

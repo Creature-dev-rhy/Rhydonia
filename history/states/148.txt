@@ -1,0 +1,39 @@
+
+state={
+	id=148
+	name="STATE_148"
+	manpower = 8406795
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=16
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = UHT
+		add_core_of = UHT
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 3
+			industrial_complex = 2
+			
+			
+		}
+		
+	}
+
+	provinces={
+		1592 1593 1594 1595 1596 1597 1598 1599 1600 1601 1602 1603 1604 1605 1606 1607 1608 1609 1610 1611 1612 1613 1614 1615 1616 1617 1618 1619 1620 1621 1622 1623 1624 1625 1626 
+	}
+	local_supplies=0.0 
+}

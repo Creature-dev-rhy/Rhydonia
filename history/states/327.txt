@@ -1,0 +1,39 @@
+
+state={
+	id=327
+	name="STATE_327"
+	manpower = 2402985
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = CYN
+		add_core_of = CYN
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		
+	}
+
+	provinces={
+		2904 2905 2906 2907 2908 2909 
+	}
+	local_supplies=0.0 
+}

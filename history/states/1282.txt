@@ -1,0 +1,39 @@
+
+state={
+	id=1282
+	name="STATE_1282"
+	manpower = 4460597
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = JOS
+		add_core_of = JOS
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		8664 8665 8666 8667 8668 8669 8670 8671 8672 8673 8674 8675 8676 8677 8678 
+	}
+	local_supplies=0.0 
+}

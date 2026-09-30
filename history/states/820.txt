@@ -1,0 +1,42 @@
+
+state={
+	id=820
+	name="STATE_820"
+	manpower = 4413660
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=5
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = MOS
+		add_core_of = MOS
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			6140 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		6133 6134 6135 6136 6137 6138 6139 6140 6141 6142 6143 6144 6145 6146 6147 6148 
+	}
+	local_supplies=0.0 
+}

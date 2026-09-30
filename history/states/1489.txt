@@ -1,0 +1,39 @@
+
+state={
+	id=1489
+	name="STATE_1489"
+	manpower = 1046646
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = CHA
+		add_core_of = CHA
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		10052 10053 10054 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=753
+	name="STATE_753"
+	manpower = 7118180
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 3
+			
+			5811 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5789 5790 5791 5792 5793 5794 5795 5796 5797 5798 5799 5800 5801 5802 5803 5804 5805 5806 5807 5808 5809 5810 5811 5812 
+	}
+	local_supplies=0.0 
+}

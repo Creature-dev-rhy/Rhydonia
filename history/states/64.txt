@@ -1,0 +1,39 @@
+
+state={
+	id=64
+	name="STATE_64"
+	manpower = 393536
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=5
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GEH
+		add_core_of = GEH
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		915 916 917 918 919 920 921 922 923 924 925 926 927 
+	}
+	local_supplies=0.0 
+}

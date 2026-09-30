@@ -1,0 +1,39 @@
+
+state={
+	id=1761
+	name="STATE_1761"
+	manpower = 6093614
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = LOW
+		add_core_of = LOW
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		
+	}
+
+	provinces={
+		12003 12004 12005 12006 12007 12008 12009 12010 12011 12012 12013 12014 12015 12016 12017 12018 12019 12020 12021 12022 12023 12024 12025 12026 12027 12028 
+	}
+	local_supplies=0.0 
+}

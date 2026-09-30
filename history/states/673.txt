@@ -1,0 +1,42 @@
+
+state={
+	id=673
+	name="STATE_673"
+	manpower = 885236
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = UHT
+		add_core_of = UHT
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			5251 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5247 5248 5249 5250 5251 5252 5253 5254 5255 5256 5257 
+	}
+	local_supplies=0.0 
+}

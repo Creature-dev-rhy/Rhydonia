@@ -1,0 +1,39 @@
+
+state={
+	id=946
+	name="STATE_946"
+	manpower = 806646
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=6
+		chromium=7
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=6
+		coal=16
+	}
+
+	history={
+		owner = MAR
+		add_core_of = MAR
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		6907 6908 
+	}
+	local_supplies=0.0 
+}

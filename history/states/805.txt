@@ -1,0 +1,42 @@
+
+state={
+	id=805
+	name="STATE_805"
+	manpower = 1697740
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = OUS
+		add_core_of = OUS
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6078 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		6074 6075 6076 6077 6078 
+	}
+	local_supplies=0.0 
+}

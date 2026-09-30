@@ -1,0 +1,42 @@
+
+state={
+	id=444
+	name="STATE_444"
+	manpower = 524638
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=6
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			3737 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		3734 3735 3736 3737 3738 3739 3740 
+	}
+	local_supplies=0.0 
+}

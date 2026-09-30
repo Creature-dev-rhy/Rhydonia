@@ -1,0 +1,39 @@
+
+state={
+	id=851
+	name="STATE_851"
+	manpower = 2009317
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=18
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = BRI
+add_core_of = BRI
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		6331 6332 6333 6334 6335 6336 6337 6338 6339 6340 6341 
+	}
+	local_supplies=0.0 
+}

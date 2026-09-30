@@ -1,0 +1,42 @@
+
+state={
+	id=763
+	name="STATE_763"
+	manpower = 210722
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = DSK
+		add_core_of = DSK
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			5890 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5889 5890 
+	}
+	local_supplies=0.0 
+}

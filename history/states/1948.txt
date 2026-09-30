@@ -1,0 +1,42 @@
+
+state={
+	id=1948
+	name="STATE_1948"
+	manpower = 2399675
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = ZEI
+		add_core_of = ZEI
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			13241 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		13240 13241 13242 13243 13244 13245 13246 13247 
+	}
+	local_supplies=0.0 
+}

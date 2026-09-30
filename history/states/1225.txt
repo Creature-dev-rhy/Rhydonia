@@ -1,0 +1,42 @@
+
+state={
+	id=1225
+	name="STATE_1225"
+	manpower = 3527152
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = ROO
+		add_core_of = ROO
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			8308 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		8307 8308 8309 8310 8311 8312 8313 8314 8315 8316 
+	}
+	local_supplies=0.0 
+}

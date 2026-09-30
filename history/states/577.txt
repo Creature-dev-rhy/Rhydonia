@@ -1,0 +1,42 @@
+
+state={
+	id=577
+	name="STATE_577"
+	manpower = 4601028
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=37
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			4634 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		4626 4627 4628 4629 4630 4631 4632 4633 4634 4635 4636 4637 4638 4639 4640 4641 4642 4643 4644 4645 4646 4647 4648 4649 
+	}
+	local_supplies=0.0 
+}

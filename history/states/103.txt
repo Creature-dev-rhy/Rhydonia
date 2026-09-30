@@ -1,0 +1,39 @@
+
+state={
+	id=103
+	name="STATE_103"
+	manpower = 3452548
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = OLL
+		add_core_of = OLL
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		1232 1233 1234 1235 1236 1237 1238 1239 1240 1241 
+	}
+	local_supplies=0.0 
+}

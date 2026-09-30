@@ -1,0 +1,39 @@
+
+state={
+	id=302
+	name="STATE_302"
+	manpower = 1009352
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=8
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = BRI
+add_core_of = BRI
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		2637 2638 2639 2640 2641 
+	}
+	local_supplies=0.0 
+}

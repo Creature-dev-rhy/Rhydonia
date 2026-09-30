@@ -1,0 +1,47 @@
+
+state={
+	id=1869
+	name="STATE_1869"
+	manpower = 1031471
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GOZ
+		add_core_of = GOZ
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			12779 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	
+		1936.1.1 = {
+			owner = GOZ
+			add_core_of = GOZ
+		}
+	}
+
+	provinces={
+		12779 12780 
+	}
+	local_supplies=0.0 
+}

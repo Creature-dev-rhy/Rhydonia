@@ -1,0 +1,42 @@
+
+state={
+	id=1531
+	name="STATE_1531"
+	manpower = 1524878
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=9
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GEH
+		add_core_of = GEH
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			10302 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		10283 10284 10285 10286 10287 10288 10289 10290 10291 10292 10293 10294 10295 10296 10297 10298 10299 10300 10301 10302 10303 10304 10305 10306 10307 
+	}
+	local_supplies=0.0 
+}

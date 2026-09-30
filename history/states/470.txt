@@ -1,0 +1,42 @@
+
+state={
+	id=470
+	name="STATE_470"
+	manpower = 2855403
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=2
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = UHT
+		add_core_of = UHT
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			3896 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		3895 3896 3897 3898 3899 3900 3901 3902 
+	}
+	local_supplies=0.0 
+}

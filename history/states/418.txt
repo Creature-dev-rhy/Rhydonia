@@ -1,0 +1,39 @@
+
+state={
+	id=418
+	name="STATE_418"
+	manpower = 4118929
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=16
+		chromium=17
+		oil=0
+		rubber=12
+		steel=0
+		tungsten=16
+		coal=41
+	}
+
+	history={
+		owner = UHT
+		add_core_of = UHT
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		3566 3567 3568 3569 3570 3571 3572 3573 3574 3575 3576 3577 3578 3579 3580 3581 
+	}
+	local_supplies=0.0 
+}

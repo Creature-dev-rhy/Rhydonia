@@ -1,0 +1,39 @@
+
+state={
+	id=10
+	name="STATE_10"
+	manpower = 1428009
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=7
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GEH
+		add_core_of = GEH
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		154 155 156 157 158 159 160 
+	}
+	local_supplies=0.0 
+}

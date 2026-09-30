@@ -1,0 +1,39 @@
+
+state={
+	id=1111
+	name="STATE_1111"
+	manpower = 3382971
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=10
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = UHT
+		add_core_of = UHT
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		7643 7644 7645 7646 7647 7648 7649 7650 7651 7652 
+	}
+	local_supplies=0.0 
+}

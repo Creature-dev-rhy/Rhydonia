@@ -1,0 +1,42 @@
+
+state={
+	id=1470
+	name="STATE_1470"
+	manpower = 2605032
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=14
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			9912 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		9911 9912 9913 9914 9915 9916 9917 9918 9919 9920 9921 
+	}
+	local_supplies=0.0 
+}

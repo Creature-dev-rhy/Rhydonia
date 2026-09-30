@@ -1,0 +1,42 @@
+
+state={
+	id=660
+	name="STATE_660"
+	manpower = 973357
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=5
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = MAT
+		add_core_of = MAT
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			5141 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5134 5135 5136 5137 5138 5139 5140 5141 5142 5143 5144 5145 5146 5147 5148 5149 
+	}
+	local_supplies=0.0 
+}

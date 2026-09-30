@@ -1,0 +1,39 @@
+
+state={
+	id=627
+	name="STATE_627"
+	manpower = 12694
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GEH
+		add_core_of = GEH
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		4951 4952 4953 4954 4955 4956 4957 4958 4959 
+	}
+	local_supplies=0.0 
+}

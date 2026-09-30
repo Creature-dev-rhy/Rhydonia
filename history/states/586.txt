@@ -1,0 +1,39 @@
+
+state={
+	id=586
+	name="STATE_586"
+	manpower = 1230221
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = EKE
+		add_core_of = EKE
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		4717 4718 4719 4720 4721 4722 4723 4724 4725 4726 
+	}
+	local_supplies=0.0 
+}

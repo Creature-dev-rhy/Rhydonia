@@ -1,0 +1,39 @@
+
+state={
+	id=1207
+	name="STATE_1207"
+	manpower = 863678
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=14
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = DRI
+		add_core_of = DRI
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		8137 8138 8139 8140 8141 8142 8143 8144 8145 8146 8147 8148 8149 8150 8151 8152 8153 8154 8155 8156 
+	}
+	local_supplies=0.0 
+}

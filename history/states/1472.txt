@@ -1,0 +1,42 @@
+
+state={
+	id=1472
+	name="STATE_1472"
+	manpower = 546649
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = CHA
+		add_core_of = CHA
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			9923 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		9923 
+	}
+	local_supplies=0.0 
+}

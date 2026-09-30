@@ -1,0 +1,42 @@
+
+state={
+	id=980
+	name="STATE_980"
+	manpower = 24028
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = BOR
+		add_core_of = BOR
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			7082 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		7081 7082 7083 7084 7085 7086 7087 7088 7089 7090 7091 7092 7093 7094 7095 7096 7097 
+	}
+	local_supplies=0.0 
+}

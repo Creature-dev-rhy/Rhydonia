@@ -1,0 +1,42 @@
+
+state={
+	id=609
+	name="STATE_609"
+	manpower = 571552
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = MOS
+		add_core_of = MOS
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			4866 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		4861 4862 4863 4864 4865 4866 
+	}
+	local_supplies=0.0 
+}

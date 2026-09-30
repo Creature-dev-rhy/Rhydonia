@@ -1,0 +1,42 @@
+
+state={
+	id=1549
+	name="STATE_1549"
+	manpower = 1013654
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = WIS
+		add_core_of = WIS
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			10476 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		10475 10476 10477 
+	}
+	local_supplies=0.0 
+}

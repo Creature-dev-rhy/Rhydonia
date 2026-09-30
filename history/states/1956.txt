@@ -1,0 +1,39 @@
+
+state={
+	id=1956
+	name="STATE_1956"
+	manpower = 1109738
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=7
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = KAV
+		add_core_of = KAV
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		13298 13299 13300 13301 13302 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=438
+	name="STATE_438"
+	manpower = 2034805
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=2
+	}
+
+	history={
+		owner = MAR
+		add_core_of = MAR
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			3700 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		3696 3697 3698 3699 3700 3701 3702 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=653
+	name="STATE_653"
+	manpower = 2524584
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = LEM
+		add_core_of = LEM
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			5116 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5111 5112 5113 5114 5115 5116 5117 5118 
+	}
+	local_supplies=0.0 
+}

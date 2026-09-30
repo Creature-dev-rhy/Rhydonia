@@ -1,0 +1,42 @@
+
+state={
+	id=1662
+	name="STATE_1662"
+	manpower = 1316971
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = KER
+		add_core_of = KER
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			11263 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		11262 11263 11264 
+	}
+	local_supplies=0.0 
+}

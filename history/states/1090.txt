@@ -1,0 +1,39 @@
+
+state={
+	id=1090
+	name="STATE_1090"
+	manpower = 3444760
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = POR
+		add_core_of = POR
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		
+	}
+
+	provinces={
+		7576 7577 7578 7579 7580 7581 7582 7583 7584 7585 7586 7587 7588 
+	}
+	local_supplies=0.0 
+}

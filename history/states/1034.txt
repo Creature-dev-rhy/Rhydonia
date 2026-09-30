@@ -1,0 +1,39 @@
+
+state={
+	id=1034
+	name="STATE_1034"
+	manpower = 3379678
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		
+	}
+
+	provinces={
+		7320 7321 7322 7323 7324 7325 7326 7327 7328 7329 
+	}
+	local_supplies=0.0 
+}

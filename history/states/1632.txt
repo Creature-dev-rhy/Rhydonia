@@ -1,0 +1,39 @@
+
+state={
+	id=1632
+	name="STATE_1632"
+	manpower = 1273177
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = ZAV
+		add_core_of = ZAV
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		11079 11080 11081 
+	}
+	local_supplies=0.0 
+}

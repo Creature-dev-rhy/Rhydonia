@@ -1,0 +1,42 @@
+
+state={
+	id=1274
+	name="STATE_1274"
+	manpower = 1190522
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = MED
+		add_core_of = MED
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			8598 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		8597 8598 8599 
+	}
+	local_supplies=0.0 
+}

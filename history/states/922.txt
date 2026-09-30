@@ -1,0 +1,39 @@
+
+state={
+	id=922
+	name="STATE_922"
+	manpower = 4216932
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = HIL
+		add_core_of = HIL
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		6734 6735 6736 6737 6738 6739 6740 6741 6742 6743 6744 6745 6746 6747 6748 6749 6750 
+	}
+	local_supplies=0.0 
+}

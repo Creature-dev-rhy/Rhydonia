@@ -1,0 +1,42 @@
+
+state={
+	id=1729
+	name="STATE_1729"
+	manpower = 7879392
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=21
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = ZAV
+		add_core_of = ZAV
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 3
+			11798 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		11776 11777 11778 11779 11780 11781 11782 11783 11784 11785 11786 11787 11788 11789 11790 11791 11792 11793 11794 11795 11796 11797 11798 11799 
+	}
+	local_supplies=0.0 
+}

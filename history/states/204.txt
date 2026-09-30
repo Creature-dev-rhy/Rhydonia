@@ -1,0 +1,39 @@
+
+state={
+	id=204
+	name="STATE_204"
+	manpower = 1535526
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		2018 2019 2020 2021 2022 2023 2024 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=479
+	name="STATE_479"
+	manpower = 6593562
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=5
+		oil=0
+		rubber=36
+		steel=0
+		tungsten=5
+		coal=13
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 2
+			industrial_complex = 2
+			
+			3956 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		3955 3956 3957 3958 3959 3960 3961 3962 3963 3964 3965 3966 3967 3968 3969 3970 3971 3972 3973 3974 3975 3976 3977 3978 3979 3980 3981 3982 3983 3984 
+	}
+	local_supplies=0.0 
+}

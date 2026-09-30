@@ -1,0 +1,42 @@
+
+state={
+	id=433
+	name="STATE_433"
+	manpower = 6901143
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=14
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = LEM
+		add_core_of = LEM
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 1
+			3651 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		3650 3651 3652 3653 3654 3655 3656 3657 3658 3659 3660 3661 3662 3663 3664 3665 3666 3667 3668 3669 3670 
+	}
+	local_supplies=0.0 
+}

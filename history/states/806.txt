@@ -1,0 +1,39 @@
+
+state={
+	id=806
+	name="STATE_806"
+	manpower = 569663
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = MED
+		add_core_of = MED
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		6079 6080 
+	}
+	local_supplies=0.0 
+}

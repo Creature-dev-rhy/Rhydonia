@@ -1,0 +1,42 @@
+
+state={
+	id=986
+	name="STATE_986"
+	manpower = 2494097
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=13
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GAN
+		add_core_of = GAN
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			7148 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		7139 7140 7141 7142 7143 7144 7145 7146 7147 7148 
+	}
+	local_supplies=0.0 
+}

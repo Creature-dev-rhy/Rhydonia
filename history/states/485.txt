@@ -1,0 +1,42 @@
+
+state={
+	id=485
+	name="STATE_485"
+	manpower = 1382057
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = MAR
+		add_core_of = MAR
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			4022 = {
+				naval_base = 2
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		4020 4021 4022 4023 4024 
+	}
+	local_supplies=0.0 
+}

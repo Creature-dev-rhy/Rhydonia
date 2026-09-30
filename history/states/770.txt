@@ -1,0 +1,42 @@
+
+state={
+	id=770
+	name="STATE_770"
+	manpower = 1221519
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=3
+	}
+
+	history={
+		owner = QWA
+		add_core_of = QWA
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			5919 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5915 5916 5917 5918 5919 
+	}
+	local_supplies=0.0 
+}

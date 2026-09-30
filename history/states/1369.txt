@@ -1,0 +1,42 @@
+
+state={
+	id=1369
+	name="STATE_1369"
+	manpower = 3323821
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=6
+		chromium=6
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=6
+		coal=15
+	}
+
+	history={
+		owner = LAV
+		add_core_of = LAV
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			9231 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		9222 9223 9224 9225 9226 9227 9228 9229 9230 9231 9232 9233 9234 
+	}
+	local_supplies=0.0 
+}

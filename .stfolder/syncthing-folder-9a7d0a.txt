@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: hyyv9-fdpvp
+created: 2026-07-09T16:30:36-04:00

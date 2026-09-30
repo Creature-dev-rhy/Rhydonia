@@ -1,0 +1,42 @@
+
+state={
+	id=732
+	name="STATE_732"
+	manpower = 3490589
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=21
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = GRA
+		add_core_of = GRA
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			5678 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5671 5672 5673 5674 5675 5676 5677 5678 5679 5680 5681 5682 5683 5684 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=1553
+	name="STATE_1553"
+	manpower = 4366274
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=6
+		chromium=6
+		oil=0
+		rubber=12
+		steel=0
+		tungsten=6
+		coal=15
+	}
+
+	history={
+		owner = KRE
+		add_core_of = KRE
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		
+	}
+
+	provinces={
+		10491 10492 10493 10494 10495 10496 10497 10498 10499 10500 10501 10502 10503 10504 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=58
+	name="STATE_58"
+	manpower = 2811802
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=7
+		chromium=7
+		oil=12
+		rubber=0
+		steel=5
+		tungsten=7
+		coal=18
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			765 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		750 751 752 753 754 755 756 757 758 759 760 761 762 763 764 765 766 767 768 769 770 771 772 773 774 775 776 777 778 779 780 781 782 783 784 785 786 787 788 789 
+	}
+	local_supplies=0.0 
+}

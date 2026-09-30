@@ -1,0 +1,42 @@
+
+state={
+	id=443
+	name="STATE_443"
+	manpower = 6637332
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=18
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 2
+			industrial_complex = 3
+			
+			3728 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		3712 3713 3714 3715 3716 3717 3718 3719 3720 3721 3722 3723 3724 3725 3726 3727 3728 3729 3730 3731 3732 3733 
+	}
+	local_supplies=0.0 
+}

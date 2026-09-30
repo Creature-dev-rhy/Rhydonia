@@ -1,0 +1,42 @@
+
+state={
+	id=1888
+	name="STATE_1888"
+	manpower = 4518553
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 3
+			industrial_complex = 0
+			
+			12877 = {
+				naval_base = 4
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		12862 12863 12864 12865 12866 12867 12868 12869 12870 12871 12872 12873 12874 12875 12876 12877 12878 12879 12880 
+	}
+	local_supplies=0.0 
+}

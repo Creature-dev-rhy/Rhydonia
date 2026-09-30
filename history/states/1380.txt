@@ -1,0 +1,42 @@
+
+state={
+	id=1380
+	name="STATE_1380"
+	manpower = 2028438
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = KRE
+		add_core_of = KRE
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			9275 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		9272 9273 9274 9275 9276 9277 
+	}
+	local_supplies=0.0 
+}

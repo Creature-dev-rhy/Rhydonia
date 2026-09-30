@@ -1,0 +1,42 @@
+
+state={
+	id=668
+	name="STATE_668"
+	manpower = 1472561
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=3
+	}
+
+	history={
+		owner = LEM
+		add_core_of = LEM
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			5219 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5218 5219 5220 5221 
+	}
+	local_supplies=0.0 
+}

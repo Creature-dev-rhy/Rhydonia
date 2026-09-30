@@ -1,0 +1,39 @@
+
+state={
+	id=626
+	name="STATE_626"
+	manpower = 557299
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = BRI
+add_core_of = BRI
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		4948 4949 4950 
+	}
+	local_supplies=0.0 
+}

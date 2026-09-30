@@ -1,0 +1,42 @@
+
+state={
+	id=1972
+	name="STATE_1972"
+	manpower = 2842395
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			13423 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		13423 13424 13425 13426 13427 13428 13429 13430 13431 13432 13433 13434 13435 
+	}
+	local_supplies=0.0 
+}

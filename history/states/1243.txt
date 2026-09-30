@@ -1,0 +1,39 @@
+
+state={
+	id=1243
+	name="STATE_1243"
+	manpower = 1035730
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=1
+		rubber=4
+		steel=18
+		tungsten=2
+		coal=5
+	}
+
+	history={
+		owner = TAN
+		add_core_of = TAN
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		8417 8418 8419 8420 8421 8422 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=52
+	name="STATE_52"
+	manpower = 5505990
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=12
+		chromium=13
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=12
+		coal=31
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			727 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		663 664 665 666 667 668 669 670 671 672 673 674 675 676 677 678 679 680 681 682 683 684 685 686 687 688 689 690 691 692 693 694 695 696 697 698 699 700 701 702 703 704 705 706 707 708 709 710 711 712 713 714 715 716 717 718 719 720 721 722 723 724 725 726 727 728 729 730 
+	}
+	local_supplies=0.0 
+}

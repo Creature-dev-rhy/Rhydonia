@@ -1,0 +1,39 @@
+
+state={
+	id=644
+	name="STATE_644"
+	manpower = 346038
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = KRE
+		add_core_of = KRE
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		5062 5063 5064 5065 5066 
+	}
+	local_supplies=0.0 
+}

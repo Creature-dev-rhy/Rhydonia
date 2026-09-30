@@ -1,0 +1,39 @@
+
+state={
+	id=1718
+	name="STATE_1718"
+	manpower = 2953671
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=12
+		chromium=13
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=13
+		coal=32
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		11681 11682 11683 11684 11685 11686 11687 11688 11689 11690 11691 11692 11693 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=1614
+	name="STATE_1614"
+	manpower = 101369
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=2
+	}
+
+	history={
+		owner = KRE
+		add_core_of = KRE
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		10935 
+	}
+	local_supplies=0.0 
+}

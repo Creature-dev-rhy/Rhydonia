@@ -1,0 +1,42 @@
+
+state={
+	id=596
+	name="STATE_596"
+	manpower = 2048921
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = JOS
+		add_core_of = JOS
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			4764 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		4760 4761 4762 4763 4764 4765 
+	}
+	local_supplies=0.0 
+}

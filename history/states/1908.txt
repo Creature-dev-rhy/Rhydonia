@@ -1,0 +1,39 @@
+
+state={
+	id=1908
+	name="STATE_1908"
+	manpower = 153186
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = HIL
+		add_core_of = HIL
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		13005 
+	}
+	local_supplies=0.0 
+}

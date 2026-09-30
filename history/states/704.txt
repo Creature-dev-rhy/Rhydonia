@@ -1,0 +1,42 @@
+
+state={
+	id=704
+	name="STATE_704"
+	manpower = 2071277
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = POR
+		add_core_of = POR
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			5456 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5454 5455 5456 5457 5458 5459 5460 
+	}
+	local_supplies=0.0 
+}

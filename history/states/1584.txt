@@ -1,0 +1,39 @@
+
+state={
+	id=1584
+	name="STATE_1584"
+	manpower = 2385332
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=3
+		coal=7
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		10731 10732 10733 10734 10735 10736 10737 10738 10739 10740 10741 10742 
+	}
+	local_supplies=0.0 
+}

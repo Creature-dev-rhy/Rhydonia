@@ -1,0 +1,29 @@
+bookmarks = {
+	bookmark = {
+		name = "CINDERS_AND_STEEL_BOOKMARK_LOC"
+		desc = "CINDERS_AND_STEEL_DESC_BOOKMARK_LOC"
+		date = 1600.1.1.12
+		picture = "GFX_select_date_1936"
+		default = yes
+		default_country = "MED"
+		
+		
+		MED={
+			history = "MED_CASB_DESC_LOC"
+			ideology = autocracy
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark, DO NOT TOUCH !
+			#123 = { rain_light = yes }
+		}
+	}
+}

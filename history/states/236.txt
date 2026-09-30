@@ -1,0 +1,42 @@
+
+state={
+	id=236
+	name="STATE_236"
+	manpower = 3389446
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = HIL
+		add_core_of = HIL
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			2220 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		2219 2220 2221 2222 2223 2224 2225 2226 2227 2228 2229 2230 
+	}
+	local_supplies=0.0 
+}

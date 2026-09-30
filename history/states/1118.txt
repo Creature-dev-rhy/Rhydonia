@@ -1,0 +1,42 @@
+
+state={
+	id=1118
+	name="STATE_1118"
+	manpower = 3818683
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=13
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = TAN
+		add_core_of = TAN
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			7693 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		7692 7693 7694 7695 7696 7697 7698 7699 7700 7701 7702 7703 7704 7705 
+	}
+	local_supplies=0.0 
+}

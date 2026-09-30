@@ -1,0 +1,42 @@
+
+state={
+	id=1186
+	name="STATE_1186"
+	manpower = 1796595
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=6
+	}
+
+	history={
+		owner = POR
+		add_core_of = POR
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			8046 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		8045 8046 8047 8048 8049 
+	}
+	local_supplies=0.0 
+}

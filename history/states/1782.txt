@@ -1,0 +1,39 @@
+
+state={
+	id=1782
+	name="STATE_1782"
+	manpower = 3373490
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=6
+		chromium=6
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=6
+		coal=15
+	}
+
+	history={
+		owner = JUR
+		add_core_of = JUR
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		12151 12152 12153 12154 12155 12156 12157 12158 12159 12160 12161 12162 12163 12164 12165 
+	}
+	local_supplies=0.0 
+}

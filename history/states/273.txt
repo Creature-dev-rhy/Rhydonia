@@ -1,0 +1,42 @@
+
+state={
+	id=273
+	name="STATE_273"
+	manpower = 6265920
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=11
+		chromium=12
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=11
+		coal=29
+	}
+
+	history={
+		owner = SEX
+		add_core_of = SEX
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 3
+			
+			2460 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		2459 2460 2461 2462 2463 2464 2465 2466 2467 2468 2469 2470 2471 2472 2473 2474 2475 2476 2477 2478 2479 2480 2481 2482 2483 
+	}
+	local_supplies=0.0 
+}

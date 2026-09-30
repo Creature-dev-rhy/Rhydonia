@@ -1,0 +1,39 @@
+
+state={
+	id=893
+	name="STATE_893"
+	manpower = 339738
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=2
+	}
+
+	history={
+		owner = ZAV
+		add_core_of = ZAV
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		6579 
+	}
+	local_supplies=0.0 
+}

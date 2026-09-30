@@ -1,0 +1,42 @@
+
+state={
+	id=631
+	name="STATE_631"
+	manpower = 1585379
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = LEM
+		add_core_of = LEM
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			5004 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5002 5003 5004 5005 5006 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=795
+	name="STATE_795"
+	manpower = 814485
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = DSK
+		add_core_of = DSK
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		6038 6039 
+	}
+	local_supplies=0.0 
+}

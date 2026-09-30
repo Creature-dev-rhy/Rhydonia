@@ -1,0 +1,42 @@
+
+state={
+	id=1226
+	name="STATE_1226"
+	manpower = 3186027
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = HIL
+		add_core_of = HIL
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			8319 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		8317 8318 8319 8320 8321 8322 8323 8324 8325 8326 8327 8328 8329 
+	}
+	local_supplies=0.0 
+}

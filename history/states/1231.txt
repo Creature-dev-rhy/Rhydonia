@@ -1,0 +1,39 @@
+
+state={
+	id=1231
+	name="STATE_1231"
+	manpower = 753094
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=3
+		steel=13
+		tungsten=0
+		coal=1
+	}
+
+	history={
+		owner = TAN
+		add_core_of = TAN
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		8360 8361 8362 8363 
+	}
+	local_supplies=0.0 
+}

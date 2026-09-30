@@ -1,0 +1,42 @@
+
+state={
+	id=325
+	name="STATE_325"
+	manpower = 3429494
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=5
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=5
+		coal=12
+	}
+
+	history={
+		owner = POR
+		add_core_of = POR
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 2
+			2899 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		2891 2892 2893 2894 2895 2896 2897 2898 2899 2900 2901 2902 
+	}
+	local_supplies=0.0 
+}

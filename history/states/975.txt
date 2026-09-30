@@ -1,0 +1,39 @@
+
+state={
+	id=975
+	name="STATE_975"
+	manpower = 4848200
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		owner = DEL
+		add_core_of = DEL
+		
+		
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 3
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		7057 7058 7059 7060 7061 7062 7063 7064 7065 7066 7067 7068 7069 
+	}
+	local_supplies=0.0 
+}
