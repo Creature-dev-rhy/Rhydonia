@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		owner = LAV
+		add_core_of = LAV
 		
 		
 		buildings = {

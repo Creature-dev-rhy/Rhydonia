@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		owner = CHA
+		add_core_of = CHA
 		
 		
 		buildings = {

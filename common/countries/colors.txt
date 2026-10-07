@@ -374,3 +374,8 @@ OOO = {
     color = rgb { 74 152 181 }
     color_ui = rgb { 74 152 181 }
 }
+
+NUE = {
+    color = rgb { 69 186 178 }
+    color_ui = rgb { 69 186 178 }
+}

@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		owner = GEH
+		add_core_of = GEH
 		
 		
 		buildings = {

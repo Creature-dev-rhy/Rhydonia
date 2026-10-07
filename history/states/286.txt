@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		owner = DAX
+		add_core_of = DAX
 		
 		
 		buildings = {

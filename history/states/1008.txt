@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		owner = COR
+		add_core_of = COR
 		
 		
 		buildings = {

@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		owner = SEX
+		add_core_of = SEX
 		
 		
 		buildings = {
