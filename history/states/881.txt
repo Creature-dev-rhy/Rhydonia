@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional culture: owner majority; check client map border.
+		set_state_flag = rhydonia_culture_gehirnstahl
+		owner = GEH
+		add_core_of = GEH
 		
 		
 		buildings = {

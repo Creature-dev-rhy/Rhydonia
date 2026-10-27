@@ -21,8 +21,8 @@ country_event = {
 			is_subject = no
 		}
 		
-		# Only after April 1936
-		date > 1938.4.1
+		# Timed for the 1600 campaign
+		date > 1602.4.1
 	}
 	
 	mean_time_to_happen = {
@@ -260,8 +260,8 @@ country_event = {
 			is_subject = no
 		}
 		
-		# Only after April 1936
-		date > 1937.4.1
+		# Timed for the 1600 campaign
+		date > 1601.4.1
 	}
 	
 	mean_time_to_happen = {
@@ -444,8 +444,8 @@ country_event = {
 			is_subject = no
 		}
 		
-		# Only after April 1936
-		date > 1938.9.1
+		# Timed for the 1600 campaign
+		date > 1602.9.1
 	}
 	
 	mean_time_to_happen = {
@@ -624,8 +624,8 @@ country_event = {
 			NOT = { is_in_faction_with = ROOT }
 		}
 		
-		# Only after April 1936
-		date > 1940.4.1
+		# Timed for the 1600 campaign
+		date > 1604.4.1
 	}
 	
 	mean_time_to_happen = {
@@ -813,8 +813,8 @@ country_event = {
 			NOT = { is_in_faction_with = ROOT }
 		}
 		
-		# Only after April 1936
-		date > 1940.4.1
+		# Timed for the 1600 campaign
+		date > 1604.4.1
 	}
 	
 	mean_time_to_happen = {

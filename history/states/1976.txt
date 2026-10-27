@@ -1,0 +1,10 @@
+state = {
+ id = 1976 name = "STATE_1976" manpower = 500
+ state_category = small_island
+ history = {
+  owner = BOR add_core_of = BOR
+  set_state_flag = rhydonia_culture_gehirnstahl
+  buildings = { infrastructure = 1 }
+ }
+ provinces = { 15504 }
+}

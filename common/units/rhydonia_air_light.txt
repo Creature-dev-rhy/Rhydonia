@@ -1,0 +1,11 @@
+sub_units = {
+            rhy_light_ornithopter = {
+                sprite = light_plane
+                priority = 20
+                active = no
+                type = fighter
+                need = { rhy_light_ornithopter_equipment = 1 }
+                categories = { category_fighter }
+                land_air_wing_size = 50
+            }
+        }

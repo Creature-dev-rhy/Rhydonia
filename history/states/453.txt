@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 3810 2 }
+		set_state_flag = rhydonia_culture_hominid
 		owner = CYK
 		add_core_of = CYK
 		

@@ -1,0 +1,9 @@
+add_namespace = rhydonia_cultures
+
+country_event = {
+    id = rhydonia_cultures.1
+    title = rhydonia_cultures.1.t
+    desc = rhydonia_cultures.1.d
+    is_triggered_only = yes
+    option = { name = rhydonia_cultures.1.a }
+}

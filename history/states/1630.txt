@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 11045 2 }
+		set_state_flag = rhydonia_culture_jurakyan
 		owner = JUR
 		add_core_of = JUR
 		

@@ -1,0 +1,28 @@
+division_template = { name = "petoria Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. petoria Regiment"
+                location = 7895 division_template = "petoria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. petoria Regiment"
+                location = 7075 division_template = "petoria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. petoria Regiment"
+                location = 3414 division_template = "petoria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. petoria Regiment"
+                location = 8003 division_template = "petoria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

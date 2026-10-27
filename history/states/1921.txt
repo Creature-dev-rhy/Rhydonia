@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional administration: nearest island/coast state 1251. Review with client map.
+		owner = QWA
+		add_core_of = QWA
+		set_state_flag = rhydonia_culture_palachian
 		
 		
 		buildings = {

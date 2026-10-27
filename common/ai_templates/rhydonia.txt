@@ -1,0 +1,740 @@
+rhy_ALD_line = {
+            available_for = { ALD }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_ALD_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_ALM_line = {
+            available_for = { ALM }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_ALM_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_ARG_line = {
+            available_for = { ARG }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_ARG_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_AUT_line = {
+            available_for = { AUT }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_AUT_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_BOG_line = {
+            available_for = { BOG }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_BOG_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_BOR_line = {
+            available_for = { BOR }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_BOR_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_BRI_line = {
+            available_for = { BRI }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_BRI_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_BRO_line = {
+            available_for = { BRO }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_BRO_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_CHA_line = {
+            available_for = { CHA }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_CHA_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_jurakyan_cavalry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_CNO_line = {
+            available_for = { CNO }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_CNO_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_COR_line = {
+            available_for = { COR }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_COR_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_COV_line = {
+            available_for = { COV }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_COV_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_CUM_line = {
+            available_for = { CUM }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_CUM_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_carapacian_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_CYK_line = {
+            available_for = { CYK }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_CYK_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_CYN_line = {
+            available_for = { CYN }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_CYN_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_DAM_line = {
+            available_for = { DAM }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_DAM_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_DAX_line = {
+            available_for = { DAX }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_DAX_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_DEL_line = {
+            available_for = { DEL }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_DEL_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_DRI_line = {
+            available_for = { DRI }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_DRI_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_carapacian_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_DSK_line = {
+            available_for = { DSK }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_DSK_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_DUU_line = {
+            available_for = { DUU }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_DUU_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_EKE_line = {
+            available_for = { EKE }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_EKE_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_palachian_rangers = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_ESA_line = {
+            available_for = { ESA }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_ESA_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_GAM_line = {
+            available_for = { GAM }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_GAM_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_carapacian_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_GAN_line = {
+            available_for = { GAN }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_GAN_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_carapacian_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_GAV_line = {
+            available_for = { GAV }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_GAV_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_GEH_line = {
+            available_for = { GEH }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_GEH_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_GOR_line = {
+            available_for = { GOR }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_GOR_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_GOZ_line = {
+            available_for = { GOZ }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_GOZ_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_GRA_line = {
+            available_for = { GRA }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_GRA_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_HIL_line = {
+            available_for = { HIL }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_HIL_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_HOG_line = {
+            available_for = { HOG }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_HOG_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_HOL_line = {
+            available_for = { HOL }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_HOL_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_IMP_line = {
+            available_for = { IMP }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_IMP_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_JOS_line = {
+            available_for = { JOS }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_JOS_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_JUR_line = {
+            available_for = { JUR }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_JUR_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_jurakyan_cavalry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_KAD_line = {
+            available_for = { KAD }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_KAD_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_carapacian_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_KAV_line = {
+            available_for = { KAV }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_KAV_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_KER_line = {
+            available_for = { KER }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_KER_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_palachian_rangers = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_KOS_line = {
+            available_for = { KOS }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_KOS_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_KRE_line = {
+            available_for = { KRE }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_KRE_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_jurakyan_cavalry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_LAV_line = {
+            available_for = { LAV }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_LAV_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_LEM_line = {
+            available_for = { LEM }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_LEM_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_LOW_line = {
+            available_for = { LOW }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_LOW_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_MAR_line = {
+            available_for = { MAR }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_MAR_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_MAT_line = {
+            available_for = { MAT }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_MAT_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_MED_line = {
+            available_for = { MED }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_MED_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_MEI_line = {
+            available_for = { MEI }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_MEI_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_MIT_line = {
+            available_for = { MIT }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_MIT_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_MOS_line = {
+            available_for = { MOS }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_MOS_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_NUE_line = {
+            available_for = { NUE }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_NUE_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_OLL_line = {
+            available_for = { OLL }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_OLL_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_OUS_line = {
+            available_for = { OUS }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_OUS_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_PET_line = {
+            available_for = { PET }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_PET_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_POR_line = {
+            available_for = { POR }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_POR_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_QWA_line = {
+            available_for = { QWA }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_QWA_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_palachian_rangers = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_RAF_line = {
+            available_for = { RAF }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_RAF_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_ROC_line = {
+            available_for = { ROC }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_ROC_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_ROO_line = {
+            available_for = { ROO }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_ROO_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_SAM_line = {
+            available_for = { SAM }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_SAM_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_SAV_line = {
+            available_for = { SAV }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_SAV_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_SEX_line = {
+            available_for = { SEX }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_SEX_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_SLO_line = {
+            available_for = { SLO }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_SLO_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_TAN_line = {
+            available_for = { TAN }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_TAN_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_carapacian_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_TAR_line = {
+            available_for = { TAR }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_TAR_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_THO_line = {
+            available_for = { THO }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_THO_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_TIA_line = {
+            available_for = { TIA }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_TIA_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_TRI_line = {
+            available_for = { TRI }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_TRI_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_UHT_line = {
+            available_for = { UHT }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_UHT_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_carapacian_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_VOR_line = {
+            available_for = { VOR }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_VOR_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_WIL_line = {
+            available_for = { WIL }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_WIL_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_hominid_line = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_WIS_line = {
+            available_for = { WIS }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_WIS_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_jurakyan_cavalry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_ZAV_line = {
+            available_for = { ZAV }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_ZAV_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_jurakyan_cavalry = 6 } }
+                target_min_match = 0.5
+            }
+        }
+rhy_ZEI_line = {
+            available_for = { ZEI }
+            role = infantry
+            upgrade_prio = { base = 1 }
+            rhy_ZEI_line_template = {
+                upgrade_prio = { base = 1 }
+                target_template = { regiments = { rhy_gehirnstahl_heavy_infantry = 6 } }
+                target_min_match = 0.5
+            }
+        }

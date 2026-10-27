@@ -2,10 +2,10 @@
 state={
 	id=7
 	name="STATE_7"
-	manpower = 4357540
+	manpower = 0
 	
-	state_category = large_town
-	#impassable = yes
+	state_category = wasteland
+	impassable = yes
 	resources={
 		aluminium=7
 		chromium=8
@@ -19,17 +19,7 @@ state={
 	history={
 		
 		
-		buildings = {
-			infrastructure = 2
-			
-			arms_factory = 0
-			industrial_complex = 0
-			dockyard = 1
-			120 = {
-				naval_base = 1
-			}
-			
-		}
+		buildings = { infrastructure = 0 }
 		
 	}
 

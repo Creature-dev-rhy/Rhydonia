@@ -1,0 +1,103 @@
+division_template = { name = "hasharan tribes Carapacian Line" regiments = { rhy_carapacian_line = { x = 0 y = 0 }
+rhy_carapacian_line = { x = 0 y = 1 }
+rhy_carapacian_line = { x = 0 y = 2 }
+rhy_carapacian_line = { x = 1 y = 0 }
+rhy_carapacian_line = { x = 1 y = 1 }
+rhy_carapacian_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. hasharan tribes Regiment"
+                location = 5370 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. hasharan tribes Regiment"
+                location = 4099 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. hasharan tribes Regiment"
+                location = 4689 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. hasharan tribes Regiment"
+                location = 6841 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. hasharan tribes Regiment"
+                location = 3238 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. hasharan tribes Regiment"
+                location = 3994 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. hasharan tribes Regiment"
+                location = 5199 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. hasharan tribes Regiment"
+                location = 4365 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "9. hasharan tribes Regiment"
+                location = 2802 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "10. hasharan tribes Regiment"
+                location = 4077 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "11. hasharan tribes Regiment"
+                location = 4301 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "12. hasharan tribes Regiment"
+                location = 1971 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "13. hasharan tribes Regiment"
+                location = 5370 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "14. hasharan tribes Regiment"
+                location = 4169 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "15. hasharan tribes Regiment"
+                location = 3083 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "16. hasharan tribes Regiment"
+                location = 5507 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "17. hasharan tribes Regiment"
+                location = 182 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "18. hasharan tribes Regiment"
+                location = 7128 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "19. hasharan tribes Regiment"
+                location = 5628 division_template = "hasharan tribes Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

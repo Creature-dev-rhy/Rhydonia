@@ -1,0 +1,48 @@
+division_template = { name = "Kavaria Gehirnstahl Line" regiments = { rhy_gehirnstahl_heavy_infantry = { x = 0 y = 0 }
+rhy_gehirnstahl_heavy_infantry = { x = 0 y = 1 }
+rhy_gehirnstahl_heavy_infantry = { x = 0 y = 2 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 0 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 1 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Kavaria Regiment"
+                location = 11722 division_template = "Kavaria Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Kavaria Regiment"
+                location = 5846 division_template = "Kavaria Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Kavaria Regiment"
+                location = 7023 division_template = "Kavaria Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Kavaria Regiment"
+                location = 11720 division_template = "Kavaria Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Kavaria Regiment"
+                location = 12652 division_template = "Kavaria Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Kavaria Regiment"
+                location = 3945 division_template = "Kavaria Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. Kavaria Regiment"
+                location = 6054 division_template = "Kavaria Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. Kavaria Regiment"
+                location = 13015 division_template = "Kavaria Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

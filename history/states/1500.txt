@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_jurakyan
 		owner = CHA
 		add_core_of = CHA
 		

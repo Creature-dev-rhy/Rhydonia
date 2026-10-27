@@ -1,0 +1,38 @@
+division_template = { name = "Poratian Gehirnstahl Line" regiments = { rhy_gehirnstahl_heavy_infantry = { x = 0 y = 0 }
+rhy_gehirnstahl_heavy_infantry = { x = 0 y = 1 }
+rhy_gehirnstahl_heavy_infantry = { x = 0 y = 2 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 0 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 1 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Poratian Regiment"
+                location = 1496 division_template = "Poratian Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Poratian Regiment"
+                location = 2790 division_template = "Poratian Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Poratian Regiment"
+                location = 4267 division_template = "Poratian Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Poratian Regiment"
+                location = 1499 division_template = "Poratian Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Poratian Regiment"
+                location = 5564 division_template = "Poratian Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Poratian Regiment"
+                location = 10111 division_template = "Poratian Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

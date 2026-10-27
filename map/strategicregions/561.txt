@@ -1,7 +1,7 @@
 strategic_region={
 	id=561
 	name="STRATEGICREGION_561"
-	provinces={
+	provinces={ 15517  15516  15505  15496 
 		5358 15494 
 	}
 	

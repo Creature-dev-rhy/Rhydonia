@@ -461,7 +461,7 @@ faction_goal_the_atomic_race = {
 	group = FOCUS_FILTER_RESEARCH
 	category = long_term
 	visible = {
-		date > 1940.1.1
+		date > 1604.1.1
 	}
 	completed = {
 		custom_override_tooltip = {

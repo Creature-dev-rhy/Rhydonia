@@ -1,0 +1,106 @@
+# Provisional 1600 racial projects. Base-game project reward tokens are used.
+sp_rhy_ornithopter = {
+    specialization = specialization_air
+    project_tags = sp_tag_aircraft
+    icon = GFX_sp_air_jet_engine
+    allowed = { always = yes }
+ visible = { FROM = {  has_country_flag = rhydonia_culture_carapacian  } }
+    available = { FROM = { has_tech = infantry_weapons } }
+    prototype_time = sp_time.prototype.short
+    complexity = sp_complexity.medium
+    breakthrough_cost = { specialization_air = 1 }
+    resource_cost = { resources = { aluminium = 2 steel = 1 } }
+    ai_will_do = { base = 3 }
+    project_output = {
+        country_effects = {
+            set_country_flag = rhydonia_ornithopter_complete
+            set_technology = { rhy_ornithopter_prototype = 1 }
+        }
+    }
+    generic_prototype_rewards = {
+        sp_air_generic_reward_scientist_xp_1
+        sp_air_generic_reward_air_xp_1
+        sp_air_generic_reward_major_progress_1
+    }
+}
+
+sp_rhy_chevaliers = {
+    specialization = specialization_land
+    project_tags = sp_tag_tank
+    icon = GFX_sp_land_land_cruiser
+    allowed = { always = yes }
+ visible = { FROM = {
+        has_country_flag = rhydonia_culture_hominid
+        NOT = { has_country_flag = rhydonia_culture_palachian }
+    } }
+    available = { FROM = { has_tech = infantry_weapons } }
+    prototype_time = sp_time.prototype.short
+    complexity = sp_complexity.medium
+    breakthrough_cost = { specialization_land = 1 }
+    resource_cost = { resources = { steel = 2 } }
+    ai_will_do = { base = 2 }
+    project_output = {
+        enable_subunits = { rhy_chevalier }
+        country_effects = {
+            set_country_flag = rhydonia_chevaliers_complete
+            set_technology = { rhy_hominid_chevaliers = 1 }
+        }
+    }
+    generic_prototype_rewards = {
+        sp_land_generic_reward_scientist_xp_1
+        sp_land_generic_reward_army_xp_1
+        sp_land_generic_reward_major_progress_1
+    }
+}
+
+sp_rhy_mechanical_infantry = {
+    specialization = specialization_land
+    project_tags = sp_tag_tank
+    icon = GFX_sp_land_land_cruiser
+    allowed = { always = yes }
+ visible = { FROM = {  has_country_flag = rhydonia_culture_gehirnstahl  } }
+    available = { FROM = { has_tech = infantry_weapons } }
+    prototype_time = sp_time.prototype.medium
+    complexity = sp_complexity.medium
+    breakthrough_cost = { specialization_land = 1 }
+    resource_cost = { resources = { steel = 4 } }
+    ai_will_do = { base = 2 }
+    project_output = {
+        enable_subunits = { rhy_gehirnstahl_mech }
+        country_effects = {
+            set_country_flag = rhydonia_mech_complete
+            set_technology = { rhy_gehirnstahl_mechanics = 1 }
+        }
+    }
+    generic_prototype_rewards = {
+        sp_land_generic_reward_scientist_xp_1
+        sp_land_generic_reward_army_xp_1
+        sp_land_generic_reward_major_progress_1
+    }
+}
+
+sp_rhy_armored_cavalry = {
+    specialization = specialization_land
+    project_tags = sp_tag_tank
+    icon = GFX_sp_land_land_cruiser
+    allowed = { always = yes }
+ visible = { FROM = {  has_country_flag = rhydonia_culture_jurakyan  } }
+    available = { FROM = { has_tech = infantry_weapons } }
+    prototype_time = sp_time.prototype.short
+    complexity = sp_complexity.medium
+    breakthrough_cost = { specialization_land = 1 }
+    resource_cost = { resources = { steel = 2 } }
+    ai_will_do = { base = 2 }
+    project_output = {
+        enable_subunits = { rhy_jurakyan_armored_cavalry }
+        country_effects = {
+            set_country_flag = rhydonia_armored_cavalry_complete
+            set_technology = { rhy_jurakyan_armored_cavalry = 1 }
+        }
+    }
+    generic_prototype_rewards = {
+        sp_land_generic_reward_scientist_xp_1
+        sp_land_generic_reward_army_xp_1
+        sp_land_generic_reward_major_progress_1
+    }
+}

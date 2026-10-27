@@ -1,0 +1,12 @@
+spriteTypes = {
+spriteType = { name = GFX_rhy_portrait_hominid texturefile = "gfx/leaders/Rhydonia/culture_hominid.dds" }
+spriteType = { name = GFX_rhy_portrait_hominid_small texturefile = "gfx/leaders/Rhydonia/culture_hominid_small.dds" }
+spriteType = { name = GFX_rhy_portrait_jurakyan texturefile = "gfx/leaders/Rhydonia/culture_jurakyan.dds" }
+spriteType = { name = GFX_rhy_portrait_jurakyan_small texturefile = "gfx/leaders/Rhydonia/culture_jurakyan_small.dds" }
+spriteType = { name = GFX_rhy_portrait_carapacian texturefile = "gfx/leaders/Rhydonia/culture_carapacian.dds" }
+spriteType = { name = GFX_rhy_portrait_carapacian_small texturefile = "gfx/leaders/Rhydonia/culture_carapacian_small.dds" }
+spriteType = { name = GFX_rhy_portrait_gehirnstahl texturefile = "gfx/leaders/Rhydonia/culture_gehirnstahl.dds" }
+spriteType = { name = GFX_rhy_portrait_gehirnstahl_small texturefile = "gfx/leaders/Rhydonia/culture_gehirnstahl_small.dds" }
+spriteType = { name = GFX_rhy_portrait_palachian texturefile = "gfx/leaders/Rhydonia/culture_palachian.dds" }
+spriteType = { name = GFX_rhy_portrait_palachian_small texturefile = "gfx/leaders/Rhydonia/culture_palachian_small.dds" }
+}

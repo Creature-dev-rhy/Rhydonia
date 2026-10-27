@@ -91,7 +91,7 @@ faction_goal_production_quotas = {
 	group = FOCUS_FILTER_INDUSTRY
 	category = short_term
 	allowed = {
-		original_tag = SOV
+		always = no
 	}
 	available = {
 		has_war = no
@@ -141,7 +141,7 @@ faction_goal_production_quotas = {
 		base = 1
 		modifier = {
 			add = 1
-			date < 1940.1.1
+			date < 1604.1.1
 		}
 	}
 }

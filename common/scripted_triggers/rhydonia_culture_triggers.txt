@@ -1,0 +1,12 @@
+# These flags are assigned from the client's culture map at the 1600 start.
+rhydonia_is_hominid_country = { has_country_flag = rhydonia_culture_hominid }
+rhydonia_is_carapacian_country = { has_country_flag = rhydonia_culture_carapacian }
+rhydonia_is_jurakyan_country = { has_country_flag = rhydonia_culture_jurakyan }
+rhydonia_is_gehirnstahl_country = { has_country_flag = rhydonia_culture_gehirnstahl }
+rhydonia_is_palachian_country = { has_country_flag = rhydonia_culture_palachian }
+
+rhydonia_is_hominid_state = { has_state_flag = rhydonia_culture_hominid }
+rhydonia_is_carapacian_state = { has_state_flag = rhydonia_culture_carapacian }
+rhydonia_is_jurakyan_state = { has_state_flag = rhydonia_culture_jurakyan }
+rhydonia_is_gehirnstahl_state = { has_state_flag = rhydonia_culture_gehirnstahl }
+rhydonia_is_palachian_state = { has_state_flag = rhydonia_culture_palachian }

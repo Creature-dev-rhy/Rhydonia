@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional administration: land border (14 map pixels). Review with client map.
+		owner = TRI
+		add_core_of = TRI
+		set_state_flag = rhydonia_culture_hominid
 		
 		
 		buildings = {

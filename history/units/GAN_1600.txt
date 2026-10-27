@@ -1,0 +1,63 @@
+division_template = { name = "Ganoyama Carapacian Line" regiments = { rhy_carapacian_line = { x = 0 y = 0 }
+rhy_carapacian_line = { x = 0 y = 1 }
+rhy_carapacian_line = { x = 0 y = 2 }
+rhy_carapacian_line = { x = 1 y = 0 }
+rhy_carapacian_line = { x = 1 y = 1 }
+rhy_carapacian_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Ganoyama Regiment"
+                location = 7139 division_template = "Ganoyama Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Ganoyama Regiment"
+                location = 6389 division_template = "Ganoyama Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Ganoyama Regiment"
+                location = 5043 division_template = "Ganoyama Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Ganoyama Regiment"
+                location = 6466 division_template = "Ganoyama Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Ganoyama Regiment"
+                location = 3741 division_template = "Ganoyama Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Ganoyama Regiment"
+                location = 1755 division_template = "Ganoyama Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. Ganoyama Regiment"
+                location = 6660 division_template = "Ganoyama Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. Ganoyama Regiment"
+                location = 4446 division_template = "Ganoyama Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "9. Ganoyama Regiment"
+                location = 4894 division_template = "Ganoyama Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "10. Ganoyama Regiment"
+                location = 2099 division_template = "Ganoyama Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "11. Ganoyama Regiment"
+                location = 6668 division_template = "Ganoyama Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

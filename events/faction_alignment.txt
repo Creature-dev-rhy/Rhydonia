@@ -1,6 +1,6 @@
 add_namespace = faction_alignment
 
-# Under Threat - Seek Protection
+
 country_event = {
 	id = faction_alignment.1
 	title = faction_alignment.1.t
@@ -54,7 +54,7 @@ country_event = {
 		}
 	}
 	
-	# Seek their protection
+	
 	option = {
 		name = faction_alignment.1.a
 		ai_chance = {
@@ -86,7 +86,7 @@ country_event = {
 		add_political_power = -50
 	}
 	
-	# We stand alone
+	
 	option = {
 		name = faction_alignment.1.b
 		ai_chance = {
@@ -98,7 +98,7 @@ country_event = {
 	}
 }
 
-# Request to Join Faction
+
 country_event = {
 	id = faction_alignment.2
 	title = faction_alignment.2.t
@@ -107,7 +107,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Accept them
+	
 	option = {
 		name = faction_alignment.2.a
 		ai_chance = {
@@ -143,7 +143,7 @@ country_event = {
 		}
 	}
 	
-	# Decline
+	
 	option = {
 		name = faction_alignment.2.b
 		ai_chance = {
@@ -156,7 +156,7 @@ country_event = {
 	}
 }
 
-# Accepted into Faction
+
 country_event = {
 	id = faction_alignment.3
 	title = faction_alignment.3.t
@@ -173,7 +173,7 @@ country_event = {
 	}
 }
 
-# Rejected from Faction
+
 country_event = {
 	id = faction_alignment.4
 	title = faction_alignment.4.t
@@ -190,7 +190,7 @@ country_event = {
 	}
 }
 
-# Expansionist Ambitions - Fascist
+
 country_event = {
 	id = faction_alignment.5
 	title = faction_alignment.5.t
@@ -241,7 +241,7 @@ country_event = {
 		}
 	}
 	
-	# Join forces with our ideological allies
+	
 	option = {
 		name = faction_alignment.5.a
 		ai_chance = {
@@ -272,7 +272,7 @@ country_event = {
 		add_war_support = 0.05
 	}
 	
-	# We forge our own path
+	
 	option = {
 		name = faction_alignment.5.b
 		ai_chance = {
@@ -284,7 +284,7 @@ country_event = {
 	}
 }
 
-# Expansionist Request - Fascist
+
 country_event = {
 	id = faction_alignment.6
 	title = faction_alignment.6.t
@@ -293,7 +293,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Welcome them
+	
 	option = {
 		name = faction_alignment.6.a
 		ai_chance = {
@@ -309,7 +309,7 @@ country_event = {
 			modifier = {
 				factor = 1.2
 				FROM = {
-					army_strength_ratio = {
+					strength_ratio = {
 						tag = ROOT
 						ratio > 0.3
 					}
@@ -323,7 +323,7 @@ country_event = {
 		}
 	}
 	
-	# They are not worthy
+	
 	option = {
 		name = faction_alignment.6.b
 		ai_chance = {
@@ -336,7 +336,7 @@ country_event = {
 	}
 }
 
-# Expansionist Ambitions - Communist
+
 country_event = {
 	id = faction_alignment.7
 	title = faction_alignment.7.t
@@ -387,7 +387,7 @@ country_event = {
 		}
 	}
 	
-	# Unite with our comrades
+	
 	option = {
 		name = faction_alignment.7.a
 		ai_chance = {
@@ -418,7 +418,7 @@ country_event = {
 		add_war_support = 0.05
 	}
 	
-	# We pursue our own revolution
+	
 	option = {
 		name = faction_alignment.7.b
 		ai_chance = {
@@ -430,7 +430,7 @@ country_event = {
 	}
 }
 
-# Expansionist Request - Communist
+
 country_event = {
 	id = faction_alignment.8
 	title = faction_alignment.8.t
@@ -439,7 +439,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Accept them into the fold
+	
 	option = {
 		name = faction_alignment.8.a
 		ai_chance = {
@@ -455,7 +455,7 @@ country_event = {
 			modifier = {
 				factor = 1.2
 				FROM = {
-					army_strength_ratio = {
+					strength_ratio = {
 						tag = ROOT
 						ratio > 0.3
 					}
@@ -469,7 +469,7 @@ country_event = {
 		}
 	}
 	
-	# They do not meet our standards
+	
 	option = {
 		name = faction_alignment.8.b
 		ai_chance = {

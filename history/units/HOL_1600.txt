@@ -1,0 +1,33 @@
+division_template = { name = "Holy state of Jason Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Holy state of Jason Regiment"
+                location = 7043 division_template = "Holy state of Jason Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Holy state of Jason Regiment"
+                location = 7310 division_template = "Holy state of Jason Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Holy state of Jason Regiment"
+                location = 7445 division_template = "Holy state of Jason Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Holy state of Jason Regiment"
+                location = 7602 division_template = "Holy state of Jason Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Holy state of Jason Regiment"
+                location = 7442 division_template = "Holy state of Jason Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

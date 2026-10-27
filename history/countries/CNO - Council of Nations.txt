@@ -1,0 +1,38 @@
+# Provisional majority culture; the reference map crosses this nation.
+set_country_flag = rhydonia_culture_hominid
+capital = 1490
+oob = "CNO_1600"
+
+recruit_character = RHY_CNO_scholar
+set_research_slots = 3
+set_technology = {
+ tech_support = 1
+    infantry_weapons = 1 # Baseline equipment needed by starting OOB
+    rhy_hominid_formation = 1
+}
+
+set_politics = {
+    ruling_party = autocracy
+    last_election = "1600.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+    autocracy = 100
+}
+
+create_country_leader = {
+    name = "Darian Kest"
+    picture = "gfx/leaders/Rhydonia/culture_hominid.dds"
+    expire = "1629.1.1"
+    ideology = rhy_autocracy
+    traits = {
+    }
+}
+
+
+
+recruit_character = RHY_CNO_commander
+
+add_ideas = { civilian_economy volunteer_only export_focus }

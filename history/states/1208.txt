@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_hominid
 		owner = ESA
 		add_core_of = ESA
 		

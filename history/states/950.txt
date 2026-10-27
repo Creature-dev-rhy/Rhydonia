@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_gehirnstahl
+		victory_points = { 6930 5 }
 		owner = GOZ
 		add_core_of = GOZ
 		
@@ -31,7 +33,7 @@ state={
 		}
 		
 	
-		1936.1.1 = {
+		1600.1.1 = {
 			owner = GOZ
 			add_core_of = GOZ
 		}

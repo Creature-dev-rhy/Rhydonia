@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 3414 2 }
+		set_state_flag = rhydonia_culture_hominid
 		owner = PET
 		add_core_of = PET
 		
@@ -35,7 +37,7 @@ state={
 		
 	}
 
-	provinces={
+	provinces={ 15513 
 		3414 3415 
 	}
 	local_supplies=0.0 

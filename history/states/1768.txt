@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		# Provisional culture: owner majority; check client map border.
+		set_state_flag = rhydonia_culture_gehirnstahl
 		owner = BOR
 		add_core_of = BOR
 		
@@ -35,7 +37,7 @@ state={
 		
 	}
 
-	provinces={
+	provinces={ 15525 
 		12059 
 	}
 	local_supplies=0.0 

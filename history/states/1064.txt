@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional administration: nearest island/coast state 1062. Review with client map.
+		owner = BOR
+		add_core_of = BOR
+		set_state_flag = rhydonia_culture_gehirnstahl
 		
 		
 		buildings = {

@@ -2,7 +2,7 @@
 state={
 	id=730
 	name="STATE_730"
-	manpower = 253004
+	manpower = 252004
 	
 	state_category = small_island
 	#impassable = yes
@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_hominid
 		owner = LAV
 		add_core_of = LAV
 		

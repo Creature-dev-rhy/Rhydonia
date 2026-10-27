@@ -1,0 +1,43 @@
+division_template = { name = "Gehirin Occupation Zone Gehirnstahl Line" regiments = { rhy_gehirnstahl_heavy_infantry = { x = 0 y = 0 }
+rhy_gehirnstahl_heavy_infantry = { x = 0 y = 1 }
+rhy_gehirnstahl_heavy_infantry = { x = 0 y = 2 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 0 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 1 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Gehirin Occupation Zone Regiment"
+                location = 6930 division_template = "Gehirin Occupation Zone Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Gehirin Occupation Zone Regiment"
+                location = 12998 division_template = "Gehirin Occupation Zone Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Gehirin Occupation Zone Regiment"
+                location = 12717 division_template = "Gehirin Occupation Zone Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Gehirin Occupation Zone Regiment"
+                location = 4461 division_template = "Gehirin Occupation Zone Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Gehirin Occupation Zone Regiment"
+                location = 13306 division_template = "Gehirin Occupation Zone Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Gehirin Occupation Zone Regiment"
+                location = 12782 division_template = "Gehirin Occupation Zone Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. Gehirin Occupation Zone Regiment"
+                location = 13130 division_template = "Gehirin Occupation Zone Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

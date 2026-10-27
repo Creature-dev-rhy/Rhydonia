@@ -1,0 +1,153 @@
+
+music_station = "base_music"
+
+music = {
+	song = "the_end_of_the_war"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = {
+				OR = {
+					always = no
+					always = no
+					always = no				
+					always = no
+				}
+			}
+		}	
+
+		modifier = {
+			factor = 3
+			OR = {
+				always = no
+				always = no
+				always = no
+				always = no
+			}
+		}
+	}
+}
+
+music = {
+	song = "the_final_frontier"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = {
+				OR = {
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+				}
+			}
+		}	
+
+		modifier = {
+			factor = 3
+			OR = {
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+			}
+		}
+	}
+}
+
+music = {
+	song = "the_black_sea"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = {
+				OR = {
+					AND = {
+						OR = {
+							always = no
+							always = no
+						}
+						OR = {
+							always = no
+							always = no
+						}
+					}
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+				}
+			}
+		}	
+
+		modifier = {
+			factor = 3
+			OR = {
+				AND = {
+					OR = {
+						always = no
+						always = no
+					}
+					OR = {
+						always = no
+						always = no
+					}
+				}
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+			}
+		}
+	}
+}

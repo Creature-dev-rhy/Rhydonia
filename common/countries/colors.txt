@@ -1,5 +1,11 @@
 # Country colors
 
+# Placeholder color until MEI's identity is supplied.
+MEI = {
+    color = rgb { 100 100 100 }
+    color_ui = rgb { 100 100 100 }
+}
+
 MED = {
     color = rgb { 90 149 246 }
     color_ui = rgb { 90 149 246 }
@@ -20,11 +26,6 @@ VOR = {
     color_ui = rgb { 177 20 20 }
 }
 
-MPG = {
-    color = rgb { 128 128 128 }
-    color_ui = rgb { 128 128 128 }
-}
-
 LAV = {
     color = rgb { 156 77 216 }
     color_ui = rgb { 156 77 216 }
@@ -40,7 +41,7 @@ BOG = {
     color_ui = rgb { 103 20 15 }
 }
 
-CON = {
+CNO = {
     color = rgb { 69 116 212 }
     color_ui = rgb { 69 116 212 }
 }

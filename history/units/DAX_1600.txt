@@ -1,0 +1,33 @@
+division_template = { name = "Daxony Gehirnstahl Line" regiments = { rhy_gehirnstahl_heavy_infantry = { x = 0 y = 0 }
+rhy_gehirnstahl_heavy_infantry = { x = 0 y = 1 }
+rhy_gehirnstahl_heavy_infantry = { x = 0 y = 2 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 0 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 1 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Daxony Regiment"
+                location = 6511 division_template = "Daxony Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Daxony Regiment"
+                location = 6511 division_template = "Daxony Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Daxony Regiment"
+                location = 5091 division_template = "Daxony Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Daxony Regiment"
+                location = 2552 division_template = "Daxony Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Daxony Regiment"
+                location = 12527 division_template = "Daxony Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

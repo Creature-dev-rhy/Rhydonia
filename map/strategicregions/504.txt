@@ -1,9 +1,7 @@
 strategic_region={
 	id=504
 	name="STRATEGICREGION_504"
-	provinces={
-		8383 
-	}
+	provinces = { 15523 8383 8560 }
 	
 	weather={
 		period={

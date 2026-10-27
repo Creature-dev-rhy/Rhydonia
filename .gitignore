@@ -1,0 +1,4 @@
+# Local validation output, map backups and launcher settings.
+/builds/
+__pycache__/
+*.pyc

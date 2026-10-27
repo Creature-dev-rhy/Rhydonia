@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 5925 2 }
+		set_state_flag = rhydonia_culture_hominid
 		owner = MIT
 		add_core_of = MIT
 		

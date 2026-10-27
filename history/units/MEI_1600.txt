@@ -1,0 +1,33 @@
+division_template = { name = "Meissen Gehirnstahl Line" regiments = { rhy_gehirnstahl_heavy_infantry = { x = 0 y = 0 }
+rhy_gehirnstahl_heavy_infantry = { x = 0 y = 1 }
+rhy_gehirnstahl_heavy_infantry = { x = 0 y = 2 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 0 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 1 }
+rhy_gehirnstahl_heavy_infantry = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Meissen Regiment"
+                location = 1251 division_template = "Meissen Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Meissen Regiment"
+                location = 1774 division_template = "Meissen Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Meissen Regiment"
+                location = 2685 division_template = "Meissen Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Meissen Regiment"
+                location = 12314 division_template = "Meissen Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Meissen Regiment"
+                location = 4284 division_template = "Meissen Gehirnstahl Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

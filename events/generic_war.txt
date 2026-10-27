@@ -1,6 +1,6 @@
 add_namespace = generic_war
 
-# Call to Arms - Join Faction's War
+
 country_event = {
 	id = generic_war.1
 	title = generic_war.1.t
@@ -12,11 +12,11 @@ country_event = {
 		NOT = { has_war = yes }
 		is_subject = no
 		
-		# Our faction leader is at war
+		
 		faction_leader = {
 			has_war = yes
 			
-			# Fighting against a major threat
+			
 			any_enemy_country = {
 				OR = {
 					is_major = yes
@@ -25,7 +25,7 @@ country_event = {
 			}
 		}
 		
-		# We have some military capability
+		
 		has_army_manpower = {
 			size > 50000
 		}
@@ -63,7 +63,7 @@ country_event = {
 	}
 	
 	immediate = {
-		# Find a suitable target from faction leader's enemies
+		
 		faction_leader = {
 			random_enemy_country = {
 				limit = {
@@ -79,7 +79,7 @@ country_event = {
 		}
 	}
 	
-	# Answer the call to arms
+	
 	option = {
 		name = generic_war.1.a
 		ai_chance = {
@@ -108,7 +108,7 @@ country_event = {
 			}
 		}
 		
-		# Create wargoal against faction leader's enemy
+		
 		create_wargoal = {
 			type = take_state_focus
 			target = event_target:war_target
@@ -119,7 +119,7 @@ country_event = {
 		add_political_power = -50
 	}
 	
-	# Refuse to participate
+	
 	option = {
 		name = generic_war.1.b
 		ai_chance = {
@@ -138,7 +138,7 @@ country_event = {
 		
 		add_stability = 0.03
 		
-		# Faction leader is displeased
+		
 		faction_leader = {
 			add_opinion_modifier = {
 				target = ROOT
@@ -148,7 +148,7 @@ country_event = {
 	}
 }
 
-# Faction Member Requests Support
+
 country_event = {
 	id = generic_war.2
 	title = generic_war.2.t
@@ -160,7 +160,7 @@ country_event = {
 		NOT = { is_faction_leader = yes }
 		has_war = yes
 		
-		# We have faction members not in our wars
+		
 		any_other_country = {
 			is_in_faction_with = ROOT
 			NOT = { has_war_with = ROOT }
@@ -168,7 +168,7 @@ country_event = {
 			is_subject = no
 		}
 		
-		# We're fighting someone significant
+		
 		any_enemy_country = {
 			OR = {
 				is_major = yes
@@ -198,7 +198,7 @@ country_event = {
 	}
 	
 	immediate = {
-		# Select a faction member to ask for help
+		
 		random_other_country = {
 			limit = {
 				is_in_faction_with = ROOT
@@ -209,7 +209,7 @@ country_event = {
 			save_event_target_as = potential_ally
 		}
 		
-		# Select an enemy to target
+		
 		random_enemy_country = {
 			limit = {
 				OR = {
@@ -222,7 +222,7 @@ country_event = {
 		}
 	}
 	
-	# Request assistance
+	
 	option = {
 		name = generic_war.2.a
 		ai_chance = {
@@ -241,7 +241,7 @@ country_event = {
 		add_political_power = -25
 	}
 	
-	# We fight alone for now
+	
 	option = {
 		name = generic_war.2.b
 		ai_chance = {
@@ -252,7 +252,7 @@ country_event = {
 	}
 }
 
-# Ally Requests Our Support in War
+
 country_event = {
 	id = generic_war.3
 	title = generic_war.3.t
@@ -261,7 +261,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	# Join their war
+	
 	option = {
 		name = generic_war.3.a
 		ai_chance = {
@@ -292,7 +292,7 @@ country_event = {
 			}
 		}
 		
-		# Create wargoal against their enemy
+		
 		create_wargoal = {
 			type = take_state_focus
 			target = event_target:common_enemy
@@ -307,7 +307,7 @@ country_event = {
 		add_political_power = -75
 	}
 	
-	# Decline to help
+	
 	option = {
 		name = generic_war.3.b
 		ai_chance = {
@@ -336,7 +336,7 @@ country_event = {
 	}
 }
 
-# Ally Agrees to Join
+
 country_event = {
 	id = generic_war.4
 	title = generic_war.4.t
@@ -358,7 +358,7 @@ country_event = {
 	}
 }
 
-# Ally Refuses to Join
+
 country_event = {
 	id = generic_war.5
 	title = generic_war.5.t

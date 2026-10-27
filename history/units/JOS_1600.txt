@@ -1,0 +1,38 @@
+division_template = { name = "Joshia Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Joshia Regiment"
+                location = 11597 division_template = "Joshia Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Joshia Regiment"
+                location = 9285 division_template = "Joshia Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Joshia Regiment"
+                location = 2242 division_template = "Joshia Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Joshia Regiment"
+                location = 8667 division_template = "Joshia Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Joshia Regiment"
+                location = 9547 division_template = "Joshia Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Joshia Regiment"
+                location = 11597 division_template = "Joshia Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

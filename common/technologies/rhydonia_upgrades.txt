@@ -1,0 +1,16 @@
+technologies = {
+rhy_mech_improved = {
+            start_year = 1608 research_cost = 2
+            allow = { has_country_flag = rhydonia_culture_gehirnstahl has_tech = rhy_gehirnstahl_mechanics }
+            folder = { name = infantry_folder position = { x = 0 y = 0 } }
+            enable_equipments = { rhy_mech_equipment_2 }
+            categories = { infantry_weapons }
+        }
+rhy_chevalier_improved = {
+            start_year = 1608 research_cost = 2
+            allow = { has_country_flag = rhydonia_culture_hominid has_tech = rhy_hominid_chevaliers }
+            folder = { name = infantry_folder position = { x = 2 y = 0 } }
+            enable_equipments = { rhy_chevalier_equipment_2 }
+            categories = { infantry_weapons }
+        }
+}

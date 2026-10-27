@@ -1,0 +1,23 @@
+division_template = { name = "Gormin Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Gormin Regiment"
+                location = 1732 division_template = "Gormin Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Gormin Regiment"
+                location = 1734 division_template = "Gormin Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Gormin Regiment"
+                location = 10220 division_template = "Gormin Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

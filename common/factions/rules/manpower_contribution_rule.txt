@@ -39,9 +39,9 @@ manpower_contribution_high = {
 		modifier = {
 			add = 2 
 			OR = {
-				has_war_with = JAP
-				has_war_with = GER
-				has_war_with = SOV
+				always = no
+				always = no
+				always = no
 			}
 		}
 	}

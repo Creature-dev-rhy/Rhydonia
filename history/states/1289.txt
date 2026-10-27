@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_carapacian
 		owner = GAM
 		add_core_of = GAM
 		

@@ -1,0 +1,53 @@
+division_template = { name = "Zavaria Jurakyan Line" regiments = { rhy_jurakyan_cavalry = { x = 0 y = 0 }
+rhy_jurakyan_cavalry = { x = 0 y = 1 }
+rhy_jurakyan_cavalry = { x = 0 y = 2 }
+rhy_jurakyan_cavalry = { x = 1 y = 0 }
+rhy_jurakyan_cavalry = { x = 1 y = 1 }
+rhy_jurakyan_cavalry = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Zavaria Regiment"
+                location = 11454 division_template = "Zavaria Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Zavaria Regiment"
+                location = 11454 division_template = "Zavaria Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Zavaria Regiment"
+                location = 9639 division_template = "Zavaria Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Zavaria Regiment"
+                location = 9644 division_template = "Zavaria Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Zavaria Regiment"
+                location = 11451 division_template = "Zavaria Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Zavaria Regiment"
+                location = 11821 division_template = "Zavaria Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. Zavaria Regiment"
+                location = 12087 division_template = "Zavaria Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. Zavaria Regiment"
+                location = 11445 division_template = "Zavaria Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "9. Zavaria Regiment"
+                location = 11231 division_template = "Zavaria Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

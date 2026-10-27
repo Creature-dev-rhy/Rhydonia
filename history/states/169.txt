@@ -17,11 +17,13 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_carapacian
 		owner = GAN
 		add_core_of = GAN
 		
 		
 		buildings = {
+ 1755 = { naval_base = 1 }
 			infrastructure = 2
 			
 			arms_factory = 0

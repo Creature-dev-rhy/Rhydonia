@@ -1,0 +1,58 @@
+division_template = { name = "Lavance Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Lavance Regiment"
+                location = 5401 division_template = "Lavance Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Lavance Regiment"
+                location = 10835 division_template = "Lavance Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Lavance Regiment"
+                location = 3017 division_template = "Lavance Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Lavance Regiment"
+                location = 10806 division_template = "Lavance Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Lavance Regiment"
+                location = 11348 division_template = "Lavance Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Lavance Regiment"
+                location = 3547 division_template = "Lavance Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. Lavance Regiment"
+                location = 9229 division_template = "Lavance Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. Lavance Regiment"
+                location = 7607 division_template = "Lavance Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "9. Lavance Regiment"
+                location = 3374 division_template = "Lavance Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "10. Lavance Regiment"
+                location = 3538 division_template = "Lavance Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

@@ -2,7 +2,7 @@
 state={
 	id=1726
 	name="STATE_1726"
-	manpower = 111
+	manpower = 110
 	
 	state_category = small_island
 	#impassable = yes
@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		# Provisional culture: owner majority; check client map border.
+		set_state_flag = rhydonia_culture_jurakyan
 		owner = ZAV
 		add_core_of = ZAV
 		

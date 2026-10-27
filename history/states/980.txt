@@ -17,11 +17,13 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_gehirnstahl
 		owner = BOR
 		add_core_of = BOR
 		
 		
 		buildings = {
+ 7084 = { naval_base = 1 }
 			infrastructure = 1
 			
 			arms_factory = 0
@@ -35,7 +37,7 @@ state={
 		
 	}
 
-	provinces={
+	provinces={ 15519 
 		7081 7082 7083 7084 7085 7086 7087 7088 7089 7090 7091 7092 7093 7094 7095 7096 7097 
 	}
 	local_supplies=0.0 

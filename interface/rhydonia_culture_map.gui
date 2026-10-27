@@ -1,0 +1,25 @@
+guiTypes = {
+    containerWindowType = {
+        name = "rhydonia_culture_map_window"
+        position = { x = 0 y = 0 }
+        size = { width = 100% height = 315 }
+
+        iconType = {
+            name = "rhydonia_culture_reference"
+            spriteType = "GFX_rhydonia_culture_map"
+            position = { x = 10 y = 8 }
+            scale = 0.23
+            alwaystransparent = yes
+        }
+
+        instantTextBoxType = {
+            name = "rhydonia_culture_legend"
+            position = { x = 12 y = 252 }
+            text = "rhydonia_cultures.1.d"
+            font = "hoi_16mbs"
+            maxWidth = 480
+            maxHeight = 60
+            format = left
+        }
+    }
+}

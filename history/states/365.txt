@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 3134 2 }
+		set_state_flag = rhydonia_culture_hominid
 		owner = ALM
 buildings = {
 			infrastructure = 4
@@ -31,7 +33,7 @@ buildings = {
 		}
 		
 	
-		1936.1.1 = {
+		1600.1.1 = {
 			owner = ALM
 			add_core_of = ALM
 		}

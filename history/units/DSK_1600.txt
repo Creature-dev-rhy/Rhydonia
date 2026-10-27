@@ -1,0 +1,53 @@
+division_template = { name = "South Kentra Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. South Kentra Regiment"
+                location = 6622 division_template = "South Kentra Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. South Kentra Regiment"
+                location = 6655 division_template = "South Kentra Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. South Kentra Regiment"
+                location = 6129 division_template = "South Kentra Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. South Kentra Regiment"
+                location = 4256 division_template = "South Kentra Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. South Kentra Regiment"
+                location = 4741 division_template = "South Kentra Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. South Kentra Regiment"
+                location = 6039 division_template = "South Kentra Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. South Kentra Regiment"
+                location = 5974 division_template = "South Kentra Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. South Kentra Regiment"
+                location = 4650 division_template = "South Kentra Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "9. South Kentra Regiment"
+                location = 5350 division_template = "South Kentra Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_jurakyan
+		victory_points = { 6952 5 }
 		owner = KAD
 		add_core_of = KAD
 		

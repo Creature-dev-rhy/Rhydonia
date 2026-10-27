@@ -1,0 +1,6 @@
+difficulty_settings = {
+difficulty_setting = { key = "rhy_strong_MED" modifier = diff_strong_ai_generic countries = { MED } multiplier = 2.0 }
+difficulty_setting = { key = "rhy_strong_JUR" modifier = diff_strong_ai_generic countries = { JUR } multiplier = 2.0 }
+difficulty_setting = { key = "rhy_strong_GEH" modifier = diff_strong_ai_generic countries = { GEH } multiplier = 2.0 }
+difficulty_setting = { key = "rhy_strong_UHT" modifier = diff_strong_ai_generic countries = { UHT } multiplier = 2.0 }
+}

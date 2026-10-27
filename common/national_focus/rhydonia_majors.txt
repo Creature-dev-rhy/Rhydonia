@@ -1,0 +1,665 @@
+# Original 1600 alpha content based on the client culture brief.
+
+focus_tree = {
+    id = MED_rhydonia_1600
+    country = { factor = 0 modifier = { add = 100 tag = MED } }
+    default = no
+
+    focus = {
+        id = MED_survey_the_realm
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 0
+        cost = 5
+        completion_reward = { add_political_power = 50 }
+    }
+
+    focus = {
+        id = MED_support_scholars
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_survey_the_realm }
+        x = 0
+        y = 1
+        cost = 5
+        completion_reward = { add_research_slot = 1 }
+    }
+
+    focus = {
+        id = MED_project_workshops
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_support_scholars }
+        x = -1
+        y = 2
+        cost = 5
+        completion_reward = { add_breakthrough_points = { specialization = specialization_land value = 1 } }
+    }
+
+    focus = {
+        id = MED_guard_frontiers
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_support_scholars }
+        x = 1
+        y = 2
+        cost = 5
+        completion_reward = { army_experience = 10 }
+    }
+
+    focus = {
+        id = MED_council_compact
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_project_workshops }
+        x = 0
+        y = 3
+        cost = 5
+        completion_reward = { add_stability = 0.05 }
+    }
+
+    focus = {
+        id = MED_chartered_workshops
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_survey_the_realm }
+        x = -4
+        y = 1
+        cost = 5
+        completion_reward = { capital_scope = { add_extra_state_shared_building_slots = 2 add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = MED_realm_arsenals
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_chartered_workshops }
+        x = -4
+        y = 2
+        cost = 5
+        completion_reward = { capital_scope = { add_extra_state_shared_building_slots = 1 add_building_construction = { type = arms_factory level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = MED_trunk_roads
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_realm_arsenals }
+        x = -4
+        y = 3
+        cost = 5
+        completion_reward = { capital_scope = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = MED_royal_laboratory
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_project_workshops }
+        x = -2
+        y = 3
+        cost = 5
+        completion_reward = { capital_scope = { add_building_construction = { type = land_facility level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = MED_field_trials
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_royal_laboratory }
+        x = -2
+        y = 4
+        cost = 5
+        completion_reward = { add_breakthrough_points = { specialization = specialization_land value = 2 } }
+    }
+
+    focus = {
+        id = MED_staff_college
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_survey_the_realm }
+        x = 4
+        y = 1
+        cost = 5
+        completion_reward = { army_experience = 20 }
+    }
+
+    focus = {
+        id = MED_border_regiments
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_staff_college }
+        x = 4
+        y = 2
+        cost = 5
+        completion_reward = { add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1200 producer = ROOT } }
+    }
+
+    focus = {
+        id = MED_officer_exchanges
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_border_regiments }
+        x = 4
+        y = 3
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_military_studies bonus = 0.5 uses = 1 category = infantry_weapons } }
+    }
+
+    focus = {
+        id = MED_arcane_institute
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_council_compact }
+        x = 0
+        y = 4
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_arcane_studies bonus = 0.5 uses = 2 category = electronics } }
+    }
+
+    focus = {
+        id = MED_realm_compact
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_guard_frontiers }
+        x = 2
+        y = 4
+        cost = 5
+        completion_reward = { add_stability = 0.05 add_war_support = 0.05 add_political_power = 100 }
+    }
+
+    focus = {
+        id = MED_industrial_exhibition
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = MED_trunk_roads }
+        x = -4
+        y = 4
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_industrial_studies bonus = 0.5 uses = 2 category = industry } }
+    }
+
+}
+
+focus_tree = {
+    id = JUR_rhydonia_1600
+    country = { factor = 0 modifier = { add = 100 tag = JUR } }
+    default = no
+
+    focus = {
+        id = JUR_survey_the_realm
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 0
+        cost = 5
+        completion_reward = { add_political_power = 50 }
+    }
+
+    focus = {
+        id = JUR_support_scholars
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_survey_the_realm }
+        x = 0
+        y = 1
+        cost = 5
+        completion_reward = { add_research_slot = 1 }
+    }
+
+    focus = {
+        id = JUR_project_workshops
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_support_scholars }
+        x = -1
+        y = 2
+        cost = 5
+        completion_reward = { add_breakthrough_points = { specialization = specialization_land value = 1 } }
+    }
+
+    focus = {
+        id = JUR_guard_frontiers
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_support_scholars }
+        x = 1
+        y = 2
+        cost = 5
+        completion_reward = { army_experience = 10 }
+    }
+
+    focus = {
+        id = JUR_council_compact
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_project_workshops }
+        x = 0
+        y = 3
+        cost = 5
+        completion_reward = { add_stability = 0.05 }
+    }
+
+    focus = {
+        id = JUR_chartered_workshops
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_survey_the_realm }
+        x = -4
+        y = 1
+        cost = 5
+        completion_reward = { capital_scope = { add_extra_state_shared_building_slots = 2 add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = JUR_realm_arsenals
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_chartered_workshops }
+        x = -4
+        y = 2
+        cost = 5
+        completion_reward = { capital_scope = { add_extra_state_shared_building_slots = 1 add_building_construction = { type = arms_factory level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = JUR_trunk_roads
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_realm_arsenals }
+        x = -4
+        y = 3
+        cost = 5
+        completion_reward = { capital_scope = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = JUR_royal_laboratory
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_project_workshops }
+        x = -2
+        y = 3
+        cost = 5
+        completion_reward = { capital_scope = { add_building_construction = { type = land_facility level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = JUR_field_trials
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_royal_laboratory }
+        x = -2
+        y = 4
+        cost = 5
+        completion_reward = { add_breakthrough_points = { specialization = specialization_land value = 2 } }
+    }
+
+    focus = {
+        id = JUR_staff_college
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_survey_the_realm }
+        x = 4
+        y = 1
+        cost = 5
+        completion_reward = { army_experience = 20 }
+    }
+
+    focus = {
+        id = JUR_border_regiments
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_staff_college }
+        x = 4
+        y = 2
+        cost = 5
+        completion_reward = { add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1200 producer = ROOT } }
+    }
+
+    focus = {
+        id = JUR_officer_exchanges
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_border_regiments }
+        x = 4
+        y = 3
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_military_studies bonus = 0.5 uses = 1 category = infantry_weapons } }
+    }
+
+    focus = {
+        id = JUR_arcane_institute
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_council_compact }
+        x = 0
+        y = 4
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_arcane_studies bonus = 0.5 uses = 2 category = electronics } }
+    }
+
+    focus = {
+        id = JUR_realm_compact
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_guard_frontiers }
+        x = 2
+        y = 4
+        cost = 5
+        completion_reward = { add_stability = 0.05 add_war_support = 0.05 add_political_power = 100 }
+    }
+
+    focus = {
+        id = JUR_industrial_exhibition
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = JUR_trunk_roads }
+        x = -4
+        y = 4
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_industrial_studies bonus = 0.5 uses = 2 category = industry } }
+    }
+
+}
+
+focus_tree = {
+    id = GEH_rhydonia_1600
+    country = { factor = 0 modifier = { add = 100 tag = GEH } }
+    default = no
+
+    focus = {
+        id = GEH_survey_the_realm
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 0
+        cost = 5
+        completion_reward = { add_political_power = 50 }
+    }
+
+    focus = {
+        id = GEH_support_scholars
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_survey_the_realm }
+        x = 0
+        y = 1
+        cost = 5
+        completion_reward = { add_research_slot = 1 }
+    }
+
+    focus = {
+        id = GEH_project_workshops
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_support_scholars }
+        x = -1
+        y = 2
+        cost = 5
+        completion_reward = { add_breakthrough_points = { specialization = specialization_land value = 1 } }
+    }
+
+    focus = {
+        id = GEH_guard_frontiers
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_support_scholars }
+        x = 1
+        y = 2
+        cost = 5
+        completion_reward = { army_experience = 10 }
+    }
+
+    focus = {
+        id = GEH_council_compact
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_project_workshops }
+        x = 0
+        y = 3
+        cost = 5
+        completion_reward = { add_stability = 0.05 }
+    }
+
+    focus = {
+        id = GEH_chartered_workshops
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_survey_the_realm }
+        x = -4
+        y = 1
+        cost = 5
+        completion_reward = { capital_scope = { add_extra_state_shared_building_slots = 2 add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = GEH_realm_arsenals
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_chartered_workshops }
+        x = -4
+        y = 2
+        cost = 5
+        completion_reward = { capital_scope = { add_extra_state_shared_building_slots = 1 add_building_construction = { type = arms_factory level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = GEH_trunk_roads
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_realm_arsenals }
+        x = -4
+        y = 3
+        cost = 5
+        completion_reward = { capital_scope = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = GEH_royal_laboratory
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_project_workshops }
+        x = -2
+        y = 3
+        cost = 5
+        completion_reward = { capital_scope = { add_building_construction = { type = land_facility level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = GEH_field_trials
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_royal_laboratory }
+        x = -2
+        y = 4
+        cost = 5
+        completion_reward = { add_breakthrough_points = { specialization = specialization_land value = 2 } }
+    }
+
+    focus = {
+        id = GEH_staff_college
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_survey_the_realm }
+        x = 4
+        y = 1
+        cost = 5
+        completion_reward = { army_experience = 20 }
+    }
+
+    focus = {
+        id = GEH_border_regiments
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_staff_college }
+        x = 4
+        y = 2
+        cost = 5
+        completion_reward = { add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1200 producer = ROOT } }
+    }
+
+    focus = {
+        id = GEH_officer_exchanges
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_border_regiments }
+        x = 4
+        y = 3
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_military_studies bonus = 0.5 uses = 1 category = infantry_weapons } }
+    }
+
+    focus = {
+        id = GEH_arcane_institute
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_council_compact }
+        x = 0
+        y = 4
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_arcane_studies bonus = 0.5 uses = 2 category = electronics } }
+    }
+
+    focus = {
+        id = GEH_realm_compact
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_guard_frontiers }
+        x = 2
+        y = 4
+        cost = 5
+        completion_reward = { add_stability = 0.05 add_war_support = 0.05 add_political_power = 100 }
+    }
+
+    focus = {
+        id = GEH_industrial_exhibition
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = GEH_trunk_roads }
+        x = -4
+        y = 4
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_industrial_studies bonus = 0.5 uses = 2 category = industry } }
+    }
+
+}
+
+focus_tree = {
+    id = UHT_rhydonia_1600
+    country = { factor = 0 modifier = { add = 100 tag = UHT } }
+    default = no
+
+    focus = {
+        id = UHT_survey_the_realm
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 0
+        cost = 5
+        completion_reward = { add_political_power = 50 }
+    }
+
+    focus = {
+        id = UHT_support_scholars
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_survey_the_realm }
+        x = 0
+        y = 1
+        cost = 5
+        completion_reward = { add_research_slot = 1 }
+    }
+
+    focus = {
+        id = UHT_project_workshops
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_support_scholars }
+        x = -1
+        y = 2
+        cost = 5
+        completion_reward = { add_breakthrough_points = { specialization = specialization_air value = 1 } }
+    }
+
+    focus = {
+        id = UHT_guard_frontiers
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_support_scholars }
+        x = 1
+        y = 2
+        cost = 5
+        completion_reward = { army_experience = 10 }
+    }
+
+    focus = {
+        id = UHT_council_compact
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_project_workshops }
+        x = 0
+        y = 3
+        cost = 5
+        completion_reward = { add_stability = 0.05 }
+    }
+
+    focus = {
+        id = UHT_chartered_workshops
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_survey_the_realm }
+        x = -4
+        y = 1
+        cost = 5
+        completion_reward = { capital_scope = { add_extra_state_shared_building_slots = 2 add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = UHT_realm_arsenals
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_chartered_workshops }
+        x = -4
+        y = 2
+        cost = 5
+        completion_reward = { capital_scope = { add_extra_state_shared_building_slots = 1 add_building_construction = { type = arms_factory level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = UHT_trunk_roads
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_realm_arsenals }
+        x = -4
+        y = 3
+        cost = 5
+        completion_reward = { capital_scope = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = UHT_royal_laboratory
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_project_workshops }
+        x = -2
+        y = 3
+        cost = 5
+        completion_reward = { capital_scope = { add_building_construction = { type = air_facility level = 1 instant_build = yes } } }
+    }
+
+    focus = {
+        id = UHT_field_trials
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_royal_laboratory }
+        x = -2
+        y = 4
+        cost = 5
+        completion_reward = { add_breakthrough_points = { specialization = specialization_air value = 2 } }
+    }
+
+    focus = {
+        id = UHT_staff_college
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_survey_the_realm }
+        x = 4
+        y = 1
+        cost = 5
+        completion_reward = { army_experience = 20 }
+    }
+
+    focus = {
+        id = UHT_border_regiments
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_staff_college }
+        x = 4
+        y = 2
+        cost = 5
+        completion_reward = { add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1200 producer = ROOT } }
+    }
+
+    focus = {
+        id = UHT_officer_exchanges
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_border_regiments }
+        x = 4
+        y = 3
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_military_studies bonus = 0.5 uses = 1 category = infantry_weapons } }
+    }
+
+    focus = {
+        id = UHT_arcane_institute
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_council_compact }
+        x = 0
+        y = 4
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_arcane_studies bonus = 0.5 uses = 2 category = electronics } }
+    }
+
+    focus = {
+        id = UHT_realm_compact
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_guard_frontiers }
+        x = 2
+        y = 4
+        cost = 5
+        completion_reward = { add_stability = 0.05 add_war_support = 0.05 add_political_power = 100 }
+    }
+
+    focus = {
+        id = UHT_industrial_exhibition
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = UHT_trunk_roads }
+        x = -4
+        y = 4
+        cost = 5
+        completion_reward = { add_tech_bonus = { name = RHY_industrial_studies bonus = 0.5 uses = 2 category = industry } }
+    }
+
+}

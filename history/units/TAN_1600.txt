@@ -1,0 +1,78 @@
+division_template = { name = "Tang Guo Carapacian Line" regiments = { rhy_carapacian_line = { x = 0 y = 0 }
+rhy_carapacian_line = { x = 0 y = 1 }
+rhy_carapacian_line = { x = 0 y = 2 }
+rhy_carapacian_line = { x = 1 y = 0 }
+rhy_carapacian_line = { x = 1 y = 1 }
+rhy_carapacian_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Tang Guo Regiment"
+                location = 8280 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Tang Guo Regiment"
+                location = 6192 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Tang Guo Regiment"
+                location = 3823 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Tang Guo Regiment"
+                location = 7913 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Tang Guo Regiment"
+                location = 7951 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Tang Guo Regiment"
+                location = 7702 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. Tang Guo Regiment"
+                location = 2135 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. Tang Guo Regiment"
+                location = 2984 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "9. Tang Guo Regiment"
+                location = 8368 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "10. Tang Guo Regiment"
+                location = 8447 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "11. Tang Guo Regiment"
+                location = 8010 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "12. Tang Guo Regiment"
+                location = 9887 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "13. Tang Guo Regiment"
+                location = 7479 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "14. Tang Guo Regiment"
+                location = 6978 division_template = "Tang Guo Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

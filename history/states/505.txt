@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 4267 2 }
+		set_state_flag = rhydonia_culture_gehirnstahl
 		owner = POR
 		add_core_of = POR
 		

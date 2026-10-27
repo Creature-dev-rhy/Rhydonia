@@ -17,6 +17,9 @@ state={
 	}
 
 	history={
+		# Provisional culture: owner majority; check client map border.
+		set_state_flag = rhydonia_culture_jurakyan
+		victory_points = { 12498 5 }
 		owner = WIS
 		add_core_of = WIS
 		

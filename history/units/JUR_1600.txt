@@ -1,0 +1,128 @@
+division_template = { name = "Jurakya Jurakyan Line" regiments = { rhy_jurakyan_cavalry = { x = 0 y = 0 }
+rhy_jurakyan_cavalry = { x = 0 y = 1 }
+rhy_jurakyan_cavalry = { x = 0 y = 2 }
+rhy_jurakyan_cavalry = { x = 1 y = 0 }
+rhy_jurakyan_cavalry = { x = 1 y = 1 }
+rhy_jurakyan_cavalry = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Jurakya Regiment"
+                location = 10128 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Jurakya Regiment"
+                location = 9091 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Jurakya Regiment"
+                location = 10629 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Jurakya Regiment"
+                location = 2865 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Jurakya Regiment"
+                location = 10461 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Jurakya Regiment"
+                location = 12667 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. Jurakya Regiment"
+                location = 5473 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. Jurakya Regiment"
+                location = 7367 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "9. Jurakya Regiment"
+                location = 10136 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "10. Jurakya Regiment"
+                location = 12900 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "11. Jurakya Regiment"
+                location = 13177 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "12. Jurakya Regiment"
+                location = 6608 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "13. Jurakya Regiment"
+                location = 11323 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "14. Jurakya Regiment"
+                location = 11136 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "15. Jurakya Regiment"
+                location = 10868 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "16. Jurakya Regiment"
+                location = 12356 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "17. Jurakya Regiment"
+                location = 10591 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "18. Jurakya Regiment"
+                location = 10583 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "19. Jurakya Regiment"
+                location = 12468 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "20. Jurakya Regiment"
+                location = 7152 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "21. Jurakya Regiment"
+                location = 13028 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "22. Jurakya Regiment"
+                location = 10776 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "23. Jurakya Regiment"
+                location = 6998 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "24. Jurakya Regiment"
+                location = 9341 division_template = "Jurakya Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional administration: nearest island/coast state 504. Review with client map.
+		owner = GAN
+		add_core_of = GAN
+		set_state_flag = rhydonia_culture_carapacian
 		
 		
 		buildings = {

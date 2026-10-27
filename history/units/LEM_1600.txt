@@ -1,0 +1,48 @@
+division_template = { name = "Lemuria Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Lemuria Regiment"
+                location = 3295 division_template = "Lemuria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Lemuria Regiment"
+                location = 1310 division_template = "Lemuria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Lemuria Regiment"
+                location = 3295 division_template = "Lemuria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Lemuria Regiment"
+                location = 5111 division_template = "Lemuria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Lemuria Regiment"
+                location = 2942 division_template = "Lemuria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Lemuria Regiment"
+                location = 3205 division_template = "Lemuria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. Lemuria Regiment"
+                location = 4528 division_template = "Lemuria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. Lemuria Regiment"
+                location = 4906 division_template = "Lemuria Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

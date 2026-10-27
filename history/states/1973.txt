@@ -1,0 +1,30 @@
+state={
+	id=1973
+	name="STATE_1973"
+	manpower=1200000
+	state_category=city
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=6
+		steel=2
+		tungsten=0
+		coal=0
+	}
+	history={
+		# Province 9589/9590/9595/9597/9603/9606 follow the Carapacian
+		# side of the client's culture border inside former state 1419.
+		owner=JUR
+		add_core_of=JUR
+		set_state_flag=rhydonia_culture_carapacian
+		buildings={
+			infrastructure=2
+			arms_factory=1
+			industrial_complex=0
+		}
+		1600.1.1={ owner=JUR add_core_of=JUR }
+	}
+	provinces={ 9589 9590 9595 9597 9603 9606 }
+	local_supplies=0.0
+}

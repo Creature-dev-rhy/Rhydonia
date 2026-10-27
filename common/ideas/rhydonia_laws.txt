@@ -1,0 +1,63 @@
+# Basic laws for the 1600 alpha. Country-specific twentieth-century ideas are isolated.
+ideas = {
+    economy = {
+        law = yes
+        use_list_view = yes
+        civilian_economy = {
+            cost = 150
+            modifier = { consumer_goods_expected_value = 0.30 }
+        }
+        partial_economic_mobilisation = {
+            cost = 150
+            modifier = {
+                consumer_goods_expected_value = 0.20
+                production_speed_arms_factory_factor = 0.10
+            }
+        }
+        war_economy = {
+            cost = 150
+            available = { has_war = yes }
+            modifier = {
+                consumer_goods_expected_value = 0.15
+                production_speed_arms_factory_factor = 0.20
+            }
+        }
+    }
+    mobilization_laws = {
+        law = yes
+        use_list_view = yes
+        volunteer_only = {
+            cost = 150
+            modifier = { conscription = 0.015 }
+        }
+        limited_conscription = {
+            cost = 150
+            modifier = { conscription = 0.025 }
+        }
+        extensive_conscription = {
+            cost = 150
+            available = { has_war = yes }
+            modifier = { conscription = 0.05 }
+        }
+    }
+    trade_laws = {
+        law = yes
+        use_list_view = yes
+        export_focus = {
+            cost = 150
+            modifier = {
+                min_export = 0.50
+                research_speed_factor = 0.05
+            }
+        }
+        limited_exports = {
+            cost = 150
+            modifier = { min_export = 0.25 }
+        }
+        closed_economy = {
+            cost = 150
+            available = { has_war = yes }
+            modifier = { min_export = 0.00 }
+        }
+    }
+}

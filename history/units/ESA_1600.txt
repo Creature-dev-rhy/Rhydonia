@@ -1,0 +1,38 @@
+division_template = { name = "Esana Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Esana Regiment"
+                location = 1935 division_template = "Esana Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Esana Regiment"
+                location = 7547 division_template = "Esana Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Esana Regiment"
+                location = 6705 division_template = "Esana Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Esana Regiment"
+                location = 7859 division_template = "Esana Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Esana Regiment"
+                location = 7971 division_template = "Esana Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Esana Regiment"
+                location = 3707 division_template = "Esana Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

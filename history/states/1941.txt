@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional administration: nearest island/coast state 1939. Review with client map.
+		owner = GEH
+		add_core_of = GEH
+		set_state_flag = rhydonia_culture_gehirnstahl
 		
 		
 		buildings = {

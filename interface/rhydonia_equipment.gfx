@@ -1,0 +1,46 @@
+spriteTypes = {
+spriteType = {
+        name = GFX_rhy_ornithopter_modern_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_ornithopter_prototype.dds"
+    }
+spriteType = {
+        name = GFX_rhy_ornithopter_tactical_2_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_ornithopter_tactical.dds"
+    }
+spriteType = {
+        name = GFX_rhy_ornithopter_tactical_3_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_ornithopter_tactical.dds"
+    }
+spriteType = {
+        name = GFX_rhy_ornithopter_strategic_2_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_ornithopter_strategic.dds"
+    }
+spriteType = {
+        name = GFX_rhy_cavalry_2_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_jurakyan_armored_cavalry.dds"
+    }
+spriteType = {
+        name = GFX_rhy_cavalry_3_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_jurakyan_armored_cavalry.dds"
+    }
+spriteType = {
+        name = GFX_rhy_cavalry_4_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_jurakyan_armored_cavalry.dds"
+    }
+spriteType = {
+        name = GFX_rhy_heavy_cavalry_1_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_jurakyan_armored_cavalry.dds"
+    }
+spriteType = {
+        name = GFX_rhy_heavy_cavalry_2_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_jurakyan_armored_cavalry.dds"
+    }
+spriteType = {
+        name = GFX_rhy_mech_improved_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_jurakyan_armored_cavalry.dds"
+    }
+spriteType = {
+        name = GFX_rhy_chevalier_improved_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_jurakyan_armored_cavalry.dds"
+    }
+}

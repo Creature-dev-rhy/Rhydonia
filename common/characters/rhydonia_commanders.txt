@@ -1,0 +1,446 @@
+characters = {
+RHY_ALD_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_ALD_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_ALM_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_ALM_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_ARG_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_ARG_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_AUT_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_AUT_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_BOG_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_BOG_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_BOR_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_BOR_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_BRI_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_BRI_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_BRO_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_BRO_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_CHA_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_jurakyan small = GFX_rhy_portrait_jurakyan_small } }
+
+            name = RHY_CHA_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_CNO_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_CNO_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_COR_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_COR_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_COV_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_COV_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_CUM_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+            name = RHY_CUM_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_CYK_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_CYK_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_CYN_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_CYN_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_DAM_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_DAM_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_DAX_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_DAX_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_DEL_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_DEL_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_DRI_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+            name = RHY_DRI_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_DSK_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_DSK_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_DUU_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_DUU_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_EKE_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_palachian small = GFX_rhy_portrait_palachian_small } }
+
+            name = RHY_EKE_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_ESA_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_ESA_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_GAM_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+            name = RHY_GAM_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_GAN_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+            name = RHY_GAN_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_GAV_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_GAV_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_GEH_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_GEH_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_GOR_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_GOR_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_GOZ_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_GOZ_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_GRA_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_GRA_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_HIL_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_HIL_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_HOG_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_HOG_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_HOL_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_HOL_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_IMP_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_IMP_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_JOS_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_JOS_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_JUR_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_jurakyan small = GFX_rhy_portrait_jurakyan_small } }
+
+            name = RHY_JUR_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_KAD_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+            name = RHY_KAD_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_KAV_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_KAV_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_KER_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_palachian small = GFX_rhy_portrait_palachian_small } }
+
+            name = RHY_KER_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_KOS_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_KOS_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_KRE_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_jurakyan small = GFX_rhy_portrait_jurakyan_small } }
+
+            name = RHY_KRE_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_LAV_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_LAV_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_LEM_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_LEM_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_LOW_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_LOW_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_MAR_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_MAR_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_MAT_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_MAT_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_MED_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_MED_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_MEI_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_MEI_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_MIT_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_MIT_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_MOS_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_MOS_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_NUE_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_NUE_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_OLL_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_OLL_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_OUS_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_OUS_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_PET_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_PET_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_POR_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_POR_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_QWA_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_palachian small = GFX_rhy_portrait_palachian_small } }
+
+            name = RHY_QWA_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_RAF_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_RAF_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_ROC_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_ROC_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_ROO_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_ROO_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_SAM_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_SAM_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_SAV_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_SAV_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_SEX_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_SEX_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_SLO_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_SLO_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_TAN_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+            name = RHY_TAN_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_TAR_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_TAR_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_THO_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_THO_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_TIA_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_TIA_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_TRI_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_TRI_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_UHT_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+            name = RHY_UHT_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_VOR_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_VOR_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_WIL_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+            name = RHY_WIL_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_WIS_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_jurakyan small = GFX_rhy_portrait_jurakyan_small } }
+
+            name = RHY_WIS_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_ZAV_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_jurakyan small = GFX_rhy_portrait_jurakyan_small } }
+
+            name = RHY_ZAV_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+RHY_ZEI_commander = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+            name = RHY_ZEI_commander
+            corps_commander = { skill = 2 attack_skill = 2 defense_skill = 2 planning_skill = 2 logistics_skill = 2 }
+        }
+}

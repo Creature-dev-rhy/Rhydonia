@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_carapacian
+		victory_points = { 8137 5 }
 		owner = DRI
 		add_core_of = DRI
 		

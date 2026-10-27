@@ -1,0 +1,222 @@
+
+
+
+music_station = "sabaton"
+
+music = {
+	song = "fourty_to_one"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 0.5
+			has_war = no
+		}
+
+		modifier = {
+			factor = 2
+			always = no
+			has_defensive_war_with = GER
+		}
+		modifier = {
+			factor = 2
+			surrender_progress > 0.1
+		}
+	}
+}
+
+music = {
+	song = "coat_of_arms"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			always = no
+			always = no
+		}
+
+		modifier = {
+			factor = 4
+			always = no
+			always = no
+			has_capitulated = no
+			always = no
+		}
+	}
+}
+
+music = {
+	song = "ghost_division"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			OR = {
+				always = no
+				always = no
+			}
+		}
+		modifier = {
+			factor = 4
+			
+			AND = {
+				always = no
+				OR = {
+					always = no
+					HOL = { 
+						always = no
+						has_capitulated = no
+						OR = {
+							surrender_progress > 0.10
+							has_capitulated = yes
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+music = {
+	song = "panzerkampf"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			always = no
+			always = no
+			always = no	
+		}
+
+		modifier = {
+			factor = 2
+			always = no
+			always = no
+			always = no	
+		}
+
+	}
+}
+
+music = {
+	song = "resist_and_bite"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 4
+			always = no
+			always = no
+			date < 1940.01.10
+		}
+	}
+}
+
+music = {
+	song = "screaming_eagles"
+	
+	chance = {
+		factor = 1
+		
+		modifier = {
+			factor = 0.5
+			has_war = no
+		}
+
+		modifier = {
+			factor = 2
+			always = no
+		}
+		modifier = {
+			factor = 2
+			always = no
+			always = no
+			always = no
+		}
+	}
+}
+
+music = {
+	song = "smoking_snakes"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			always = no			
+		}
+		modifier = {
+			factor = 2
+			always = no			
+			always = no
+		}
+	}
+}
+
+music = {
+	song = "the_last_battle"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 0.1
+			has_war = no
+		}				
+
+		modifier = {
+			factor = 2
+			always = no
+		}
+
+		modifier = {
+			factor = 4
+			always = no
+			always = no
+		}		
+	}
+}
+
+music = {
+	song = "to_hell_and_back"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+
+			always = no
+			always = no
+		}
+	}
+}
+
+music = {
+	song = "uprising"
+	
+	chance = {
+		factor = 1
+
+		modifier = {
+			factor = 3
+
+			OR = {
+				always = no
+				always = no
+			}
+
+			date > 1940.01.10
+			always = no
+		}
+	}
+}

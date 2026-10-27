@@ -1,0 +1,28 @@
+division_template = { name = "Almatta Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Almatta Regiment"
+                location = 4 division_template = "Almatta Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Almatta Regiment"
+                location = 6963 division_template = "Almatta Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Almatta Regiment"
+                location = 3134 division_template = "Almatta Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Almatta Regiment"
+                location = 8694 division_template = "Almatta Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

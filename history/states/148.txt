@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 1597 2 }
+		set_state_flag = rhydonia_culture_carapacian
 		owner = UHT
 		add_core_of = UHT
 		

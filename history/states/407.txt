@@ -17,6 +17,9 @@ state={
 	}
 
 	history={
+ victory_points = { 3462 2 }
+		# Provisional culture: owner majority; check client map border.
+		set_state_flag = rhydonia_culture_hominid
 		owner = NUE
 		add_core_of = NUE
 buildings = {

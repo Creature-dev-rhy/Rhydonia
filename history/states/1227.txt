@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_carapacian
 		owner = DRI
 		add_core_of = DRI
 		

@@ -1,0 +1,28 @@
+division_template = { name = "Argos Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Argos Regiment"
+                location = 9001 division_template = "Argos Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Argos Regiment"
+                location = 2112 division_template = "Argos Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Argos Regiment"
+                location = 8438 division_template = "Argos Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Argos Regiment"
+                location = 8769 division_template = "Argos Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

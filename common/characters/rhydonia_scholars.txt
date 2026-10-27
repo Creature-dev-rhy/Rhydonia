@@ -1,0 +1,595 @@
+# Original Rhydonia characters and cultural portrait artwork.
+characters = {
+    RHY_ALD_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_ALD_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_ALM_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_ALM_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_ARG_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_ARG_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_AUT_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_AUT_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_BOG_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_BOG_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_BOR_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_BOR_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_BRI_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_BRI_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_BRO_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_BRO_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_CHA_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_jurakyan small = GFX_rhy_portrait_jurakyan_small } }
+
+        name = RHY_CHA_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_CNO_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_CNO_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_COR_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_COR_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_COV_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_COV_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_CUM_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+        name = RHY_CUM_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 2 }
+        }
+    }
+    RHY_CYK_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_CYK_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_CYN_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_CYN_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_DAM_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_DAM_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_DAX_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_DAX_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_DEL_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_DEL_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_DRI_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+        name = RHY_DRI_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 2 }
+        }
+    }
+    RHY_DSK_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_DSK_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_DUU_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_DUU_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_EKE_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_palachian small = GFX_rhy_portrait_palachian_small } }
+
+        name = RHY_EKE_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_ESA_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_ESA_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_GAM_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+        name = RHY_GAM_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 2 }
+        }
+    }
+    RHY_GAN_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+        name = RHY_GAN_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 2 }
+        }
+    }
+    RHY_GAV_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_GAV_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_GEH_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_GEH_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_GOR_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_GOR_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_GOZ_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_GOZ_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_GRA_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_GRA_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_HIL_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_HIL_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_HOG_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_HOG_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_HOL_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_HOL_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_IMP_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_IMP_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_JOS_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_JOS_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_JUR_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_jurakyan small = GFX_rhy_portrait_jurakyan_small } }
+
+        name = RHY_JUR_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_KAD_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+        name = RHY_KAD_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 2 }
+        }
+    }
+    RHY_KAV_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_KAV_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_KER_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_palachian small = GFX_rhy_portrait_palachian_small } }
+
+        name = RHY_KER_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_KOS_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_KOS_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_KRE_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_jurakyan small = GFX_rhy_portrait_jurakyan_small } }
+
+        name = RHY_KRE_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_LAV_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_LAV_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_LEM_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_LEM_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_LOW_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_LOW_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_MAR_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_MAR_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_MAT_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_MAT_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_MED_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_MED_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_MEI_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_MEI_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_MIT_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_MIT_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_MOS_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_MOS_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_NUE_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_NUE_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_OLL_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_OLL_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_OUS_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_OUS_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_PET_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_PET_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_POR_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_POR_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_QWA_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_palachian small = GFX_rhy_portrait_palachian_small } }
+
+        name = RHY_QWA_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_RAF_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_RAF_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_ROC_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_ROC_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_ROO_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_ROO_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_SAM_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_SAM_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_SAV_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_SAV_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_SEX_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_SEX_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_SLO_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_SLO_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_TAN_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+        name = RHY_TAN_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 2 }
+        }
+    }
+    RHY_TAR_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_TAR_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_THO_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_THO_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_TIA_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_TIA_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_TRI_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_TRI_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_UHT_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_carapacian small = GFX_rhy_portrait_carapacian_small } }
+
+        name = RHY_UHT_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 2 }
+        }
+    }
+    RHY_VOR_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_VOR_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_WIL_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_hominid small = GFX_rhy_portrait_hominid_small } }
+
+        name = RHY_WIL_scholar
+        scientist = {
+            skills = { specialization_land = 1 specialization_air = 1 }
+        }
+    }
+    RHY_WIS_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_jurakyan small = GFX_rhy_portrait_jurakyan_small } }
+
+        name = RHY_WIS_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_ZAV_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_jurakyan small = GFX_rhy_portrait_jurakyan_small } }
+
+        name = RHY_ZAV_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+    RHY_ZEI_scholar = {
+ portraits = { army = { large = GFX_rhy_portrait_gehirnstahl small = GFX_rhy_portrait_gehirnstahl_small } }
+
+        name = RHY_ZEI_scholar
+        scientist = {
+            skills = { specialization_land = 2 specialization_air = 1 }
+        }
+    }
+}

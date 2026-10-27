@@ -1,24 +1,19 @@
-capital = 1
+# Provisional majority culture; the reference map crosses this nation.
+set_country_flag = rhydonia_culture_hominid
+capital = 1653
+oob = "SEX_1600"
 
+recruit_character = RHY_SEX_scholar
 set_research_slots = 3
-
 set_technology = {
-    infantry_weapons = 1
-    tech_support = 1
-    tech_engineers = 1
-    tech_recon = 1
-    gw_artillery = 1
-    interwar_antiair = 1
-    fuel_silos = 1
-    synth_oil_experiments = 1
-    early_fighter = 1
-    early_bomber = 1
-    naval_bomber1 = 1
+ tech_support = 1
+    infantry_weapons = 1 # Baseline equipment needed by starting OOB
+    rhy_hominid_formation = 1
 }
 
 set_politics = {
     ruling_party = liberal_democracy
-    last_election = "1936.1.1"
+    last_election = "1600.1.1"
     election_frequency = 48
     elections_allowed = no
 }
@@ -28,12 +23,19 @@ set_popularities = {
 }
 
 create_country_leader = {
-    name = "Leader Name"
-    picture = "gfx/leaders/SEX/SEX_leader.dds"
-    expire = "1965.1.1"
-    ideology = liberal_democracy
+    name = "Lucan Deren"
+    picture = "gfx/leaders/Rhydonia/culture_hominid.dds"
+    expire = "1629.1.1"
+    ideology = rhy_liberal_democracy
     traits = {
     }
 }
 
-# No OOB generated
+
+
+recruit_character = RHY_SEX_commander
+
+add_ideas = { civilian_economy volunteer_only export_focus }
+
+# Starting coastal transport
+add_equipment_to_stockpile = { type = convoy_1 amount = 30 producer = ROOT }

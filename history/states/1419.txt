@@ -2,21 +2,23 @@
 state={
 	id=1419
 	name="STATE_1419"
-	manpower = 3840437
+	manpower = 2640437
 	
 	state_category = large_city
 	#impassable = yes
 	resources={
 		aluminium=0
 		chromium=0
-		oil=2
-		rubber=20
-		steel=6
+		oil=1
+		rubber=14
+		steel=4
 		tungsten=0
 		coal=0
 	}
 
 	history={
+		# Provisional culture: owner majority; check client map border.
+		set_state_flag = rhydonia_culture_jurakyan
 		owner = JUR
 		add_core_of = JUR
 		
@@ -24,21 +26,21 @@ state={
 		buildings = {
 			infrastructure = 3
 			
-			arms_factory = 2
+			arms_factory = 1
 			industrial_complex = 0
 			
 			
 		}
 		
 	
-		1936.1.1 = {
+		1600.1.1 = {
 			owner = JUR
 			add_core_of = JUR
 		}
 	}
 
 	provinces={
-		9588 9589 9590 9591 9592 9593 9594 9595 9596 9597 9598 9599 9600 9601 9602 9603 9604 9605 9606 
+		9588 9591 9592 9593 9594 9596 9598 9599 9600 9601 9602 9604 9605
 	}
 	local_supplies=0.0 
 }

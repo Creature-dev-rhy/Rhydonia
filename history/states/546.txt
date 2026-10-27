@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional administration: land border (28 map pixels). Review with client map.
+		owner = LOW
+		add_core_of = LOW
+		set_state_flag = rhydonia_culture_gehirnstahl
 		
 		
 		buildings = {

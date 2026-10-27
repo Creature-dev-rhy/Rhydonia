@@ -17,11 +17,13 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_hominid
 		owner = MOS
 		add_core_of = MOS
 		
 		
 		buildings = {
+ 6684 = { naval_base = 1 }
 			infrastructure = 4
 			
 			arms_factory = 0

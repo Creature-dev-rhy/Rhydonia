@@ -17,11 +17,13 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_hominid
 		owner = SEX
 		add_core_of = SEX
 		
 		
 		buildings = {
+ 4410 = { naval_base = 1 }
 			infrastructure = 3
 			
 			arms_factory = 1

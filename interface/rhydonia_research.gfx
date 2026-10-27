@@ -1,0 +1,35 @@
+# Provisional original icons; replace when client artwork is approved.
+spriteTypes = {
+    spriteType = {
+        name = GFX_rhy_magic_foundations_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_magic_foundations.dds"
+    }
+    spriteType = {
+        name = GFX_rhy_magic_conduits_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_magic_conduits.dds"
+    }
+    spriteType = {
+        name = GFX_rhy_magic_wards_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_magic_wards.dds"
+    }
+    spriteType = {
+        name = GFX_rhy_ornithopter_prototype_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_ornithopter_prototype.dds"
+    }
+    spriteType = {
+        name = GFX_rhy_ornithopter_tactical_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_ornithopter_tactical.dds"
+    }
+    spriteType = {
+        name = GFX_rhy_ornithopter_improved_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_ornithopter_improved.dds"
+    }
+    spriteType = {
+        name = GFX_rhy_ornithopter_strategic_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_ornithopter_strategic.dds"
+    }
+    spriteType = {
+        name = GFX_rhy_jurakyan_armored_cavalry_medium
+        texturefile = "gfx/interface/technologies/rhydonia/rhy_jurakyan_armored_cavalry.dds"
+    }
+}

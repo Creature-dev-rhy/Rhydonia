@@ -1,0 +1,151 @@
+music_station = "base_music"
+
+
+
+music = {
+	song = "argentina_civilian"
+	chance = { 
+		factor = 1 
+		modifier = {
+			factor = 1.25
+			tag = ARG
+		}
+		modifier = {
+			factor = 0.05
+			always = yes
+		}
+		modifier = {
+			factor = 3
+			always = yes
+			any_enemy_country = {
+				always = no
+			}
+		}
+	}
+}
+
+music = {
+	song = "argentina_militaristic"
+	chance = { 
+		factor = 1 
+		modifier = {
+			factor = 1.25
+			tag = ARG
+		}
+		modifier = {
+			factor = 0.05
+			always = yes
+		}
+		modifier = {
+			factor = 3
+			always = yes
+			any_enemy_country = {
+				always = no
+			}
+		}
+	}
+}
+
+
+
+music = {
+	song = "brazil_civilian"
+	chance = { 
+		factor = 1 
+		modifier = {
+			factor = 1.25
+			always = no
+		}
+		modifier = {
+			factor = 0.05
+			always = yes
+		}
+		modifier = {
+			factor = 3
+			always = yes
+			any_enemy_country = {
+				always = no
+			}
+		}
+		modifier = {
+			factor = 1.5
+			tag = POR
+		}
+	}
+}
+
+music = {
+	song = "brazil_militaristic"
+	chance = { 
+		factor = 1 
+		modifier = {
+			factor = 1.25
+			always = no
+		}
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+		modifier = {
+			factor = 0.05
+			always = yes
+		}
+		modifier = {
+			factor = 3
+			always = yes
+			any_enemy_country = {
+				always = no
+			}
+		}
+	}
+}
+
+
+
+music = {
+	song = "chile_civilian"
+	chance = { 
+		factor = 1
+		modifier = {
+			factor = 1.25
+			always = no
+		}
+		modifier = {
+			factor = 0.05
+			always = yes
+		}
+		modifier = {
+			factor = 3
+			always = yes
+			any_enemy_country = {
+				always = no
+			}
+		}
+	}
+}
+
+music = {
+	song = "chile_militaristic"
+	chance = { 
+		factor = 1 
+		modifier = {
+			factor = 1.25
+			always = no
+		}
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+		modifier = {
+			factor = 0.05
+			always = yes
+		}
+		modifier = {
+			factor = 3
+			always = yes
+			any_enemy_country = {
+				always = no
+			}
+		}
+	}
+}

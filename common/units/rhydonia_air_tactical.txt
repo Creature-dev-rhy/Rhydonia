@@ -1,0 +1,11 @@
+sub_units = {
+            rhy_tactical_ornithopter = {
+                sprite = medium_plane
+                priority = 20
+                active = no
+                type = tactical_bomber
+                need = { rhy_tactical_ornithopter_equipment = 1 }
+                categories = { category_tac_bomber }
+                land_air_wing_size = 50
+            }
+        }

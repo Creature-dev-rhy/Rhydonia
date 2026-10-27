@@ -1,0 +1,58 @@
+division_template = { name = "Kredyia Jurakyan Line" regiments = { rhy_jurakyan_cavalry = { x = 0 y = 0 }
+rhy_jurakyan_cavalry = { x = 0 y = 1 }
+rhy_jurakyan_cavalry = { x = 0 y = 2 }
+rhy_jurakyan_cavalry = { x = 1 y = 0 }
+rhy_jurakyan_cavalry = { x = 1 y = 1 }
+rhy_jurakyan_cavalry = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Kredyia Regiment"
+                location = 10491 division_template = "Kredyia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Kredyia Regiment"
+                location = 8841 division_template = "Kredyia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Kredyia Regiment"
+                location = 10670 division_template = "Kredyia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Kredyia Regiment"
+                location = 6414 division_template = "Kredyia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Kredyia Regiment"
+                location = 9127 division_template = "Kredyia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Kredyia Regiment"
+                location = 9711 division_template = "Kredyia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. Kredyia Regiment"
+                location = 11095 division_template = "Kredyia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. Kredyia Regiment"
+                location = 10947 division_template = "Kredyia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "9. Kredyia Regiment"
+                location = 1283 division_template = "Kredyia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "10. Kredyia Regiment"
+                location = 3629 division_template = "Kredyia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

@@ -1,0 +1,29 @@
+set_country_flag = rhydonia_culture_gehirnstahl
+# Meissen: original name assigned to the existing MEI tag.
+capital = 106
+oob = "MEI_1600"
+recruit_character = RHY_MEI_scholar
+set_research_slots = 3
+set_technology = {
+ tech_support = 1
+    infantry_weapons = 1 # Baseline equipment needed by starting OOB
+    rhy_gehirnstahl_formation = 1
+}
+set_politics = {
+    ruling_party = autocracy
+    last_election = "1600.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = { autocracy = 100 }
+
+create_country_leader = {
+    name = "Volker Aster"
+    picture = "gfx/leaders/Rhydonia/culture_gehirnstahl.dds"
+    expire = "1629.1.1"
+    ideology = rhy_autocracy
+}
+
+recruit_character = RHY_MEI_commander
+
+add_ideas = { civilian_economy volunteer_only export_focus }

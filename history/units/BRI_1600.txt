@@ -1,0 +1,53 @@
+division_template = { name = "Brisal Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Brisal Regiment"
+                location = 3527 division_template = "Brisal Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Brisal Regiment"
+                location = 5333 division_template = "Brisal Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Brisal Regiment"
+                location = 6335 division_template = "Brisal Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Brisal Regiment"
+                location = 6953 division_template = "Brisal Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Brisal Regiment"
+                location = 5419 division_template = "Brisal Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Brisal Regiment"
+                location = 6350 division_template = "Brisal Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. Brisal Regiment"
+                location = 5964 division_template = "Brisal Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. Brisal Regiment"
+                location = 5699 division_template = "Brisal Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "9. Brisal Regiment"
+                location = 5831 division_template = "Brisal Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

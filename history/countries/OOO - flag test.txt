@@ -29,9 +29,9 @@ set_popularities = {
 
 create_country_leader = {
     name = "Leader Name"
-    picture = "gfx/leaders/OOO/OOO_leader.dds"
-    expire = "1965.1.1"
-    ideology = conservative_democracy
+    picture = "gfx/leaders/Rhydonia/provisional_hominid.dds"
+    expire = "1629.1.1"
+    ideology = rhy_conservative_democracy
     traits = {
     }
 }

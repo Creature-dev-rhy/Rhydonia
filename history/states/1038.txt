@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_hominid
+		victory_points = { 7341 5 }
 		owner = SAM
 		add_core_of = SAM
 		

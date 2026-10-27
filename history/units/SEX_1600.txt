@@ -1,0 +1,128 @@
+division_template = { name = "Free Marches Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Free Marches Regiment"
+                location = 11154 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Free Marches Regiment"
+                location = 9399 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Free Marches Regiment"
+                location = 13389 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Free Marches Regiment"
+                location = 12260 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Free Marches Regiment"
+                location = 12115 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Free Marches Regiment"
+                location = 6175 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "7. Free Marches Regiment"
+                location = 4964 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "8. Free Marches Regiment"
+                location = 3317 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "9. Free Marches Regiment"
+                location = 12223 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "10. Free Marches Regiment"
+                location = 11912 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "11. Free Marches Regiment"
+                location = 5801 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "12. Free Marches Regiment"
+                location = 11542 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "13. Free Marches Regiment"
+                location = 3725 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "14. Free Marches Regiment"
+                location = 3973 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "15. Free Marches Regiment"
+                location = 7831 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "16. Free Marches Regiment"
+                location = 2472 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "17. Free Marches Regiment"
+                location = 11740 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "18. Free Marches Regiment"
+                location = 6751 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "19. Free Marches Regiment"
+                location = 5285 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "20. Free Marches Regiment"
+                location = 8247 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "21. Free Marches Regiment"
+                location = 2846 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "22. Free Marches Regiment"
+                location = 1217 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "23. Free Marches Regiment"
+                location = 5990 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "24. Free Marches Regiment"
+                location = 11156 division_template = "Free Marches Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

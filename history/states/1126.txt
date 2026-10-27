@@ -2,7 +2,7 @@
 state={
 	id=1126
 	name="STATE_1126"
-	manpower = 1746142
+	manpower = 1745642
 	
 	state_category = large_town
 	#impassable = yes
@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_hominid
+		victory_points = { 7736 5 }
 		owner = GAV
 		add_core_of = GAV
 		

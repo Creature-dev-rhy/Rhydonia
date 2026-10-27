@@ -1,0 +1,54 @@
+
+music_station = "base_music"
+
+
+
+music = {
+	song = "skoda_lasky"
+	chance = {
+		base = 1
+
+		modifier = {
+			factor = 0.05
+			NOT = { always = no }
+		}
+		modifier = {
+			factor = 2.5
+			always = no
+			has_war = no
+		}
+		modifier = {
+			factor = 10
+			NOT = { always = no }
+			always = no
+			always = no
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "truth_prevails"
+	chance = {
+		base = 1
+
+		modifier = {
+			factor = 0.15
+			has_war = no
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_defensive_war = yes
+				AND = {
+					has_cosmetic_tag = CZE_fall_of_the_republic
+					date < 1940.1.1
+				}
+			}
+			OR = {
+				always = no
+				is_major = no
+			}
+		}
+	}
+}

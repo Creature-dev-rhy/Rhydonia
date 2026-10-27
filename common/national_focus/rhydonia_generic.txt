@@ -1,0 +1,102 @@
+focus_tree = {
+    id = rhydonia_generic
+    country = { factor = 1 }
+    default = yes
+
+    focus = {
+        id = RHY_survey_the_realm
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 0
+        cost = 5
+        completion_reward = { add_political_power = 50 }
+    }
+    focus = {
+        id = RHY_local_councils
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = RHY_survey_the_realm }
+        x = 0
+        y = 1
+        cost = 5
+        completion_reward = { add_stability = 0.05 }
+    }
+    focus = {
+        id = RHY_scholars_and_artisans
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = RHY_local_councils }
+        x = 0
+        y = 2
+        cost = 5
+        completion_reward = { add_research_slot = 1 }
+    }
+    focus = {
+        id = RHY_magical_colleges
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = RHY_scholars_and_artisans }
+        x = -4
+        y = 3
+        cost = 5
+        completion_reward = { add_political_power = 50 }
+    }
+    focus = {
+        id = RHY_chevalier_charter
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = RHY_scholars_and_artisans }
+        available = {
+            has_country_flag = rhydonia_culture_hominid
+            NOT = { has_country_flag = rhydonia_culture_palachian }
+        }
+        x = -2
+        y = 3
+        cost = 5
+        completion_reward = {
+            add_breakthrough_points = { specialization = specialization_land value = 1 }
+        }
+    }
+    focus = {
+        id = RHY_cavalry_workshops
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = RHY_scholars_and_artisans }
+        available = { has_country_flag = rhydonia_culture_jurakyan }
+        x = 0
+        y = 3
+        cost = 5
+        completion_reward = {
+            add_breakthrough_points = { specialization = specialization_land value = 1 }
+        }
+    }
+    focus = {
+        id = RHY_ornithopter_workshops
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = RHY_scholars_and_artisans }
+        available = { has_country_flag = rhydonia_culture_carapacian }
+        x = 2
+        y = 3
+        cost = 5
+        completion_reward = {
+            add_breakthrough_points = { specialization = specialization_air value = 1 }
+        }
+    }
+    focus = {
+        id = RHY_mechanical_ateliers
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = RHY_scholars_and_artisans }
+        available = { has_country_flag = rhydonia_culture_gehirnstahl }
+        x = 4
+        y = 3
+        cost = 5
+        completion_reward = {
+            add_breakthrough_points = { specialization = specialization_land value = 1 }
+        }
+    }
+    focus = {
+        id = RHY_palachian_paths
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = RHY_scholars_and_artisans }
+        available = { has_country_flag = rhydonia_culture_palachian }
+        x = 6
+        y = 3
+        cost = 5
+        completion_reward = { army_experience = 10 }
+    }
+}

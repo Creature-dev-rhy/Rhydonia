@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional administration: land border (25 map pixels). Review with client map.
+		owner = MEI
+		add_core_of = MEI
+		set_state_flag = rhydonia_culture_gehirnstahl
 		
 		
 		buildings = {

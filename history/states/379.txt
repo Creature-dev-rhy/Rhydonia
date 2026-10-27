@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_hominid
+		victory_points = { 3295 5 }
 		owner = LEM
 		add_core_of = LEM
 		

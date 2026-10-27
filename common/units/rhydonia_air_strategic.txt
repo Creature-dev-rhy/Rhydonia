@@ -1,0 +1,11 @@
+sub_units = {
+            rhy_strategic_ornithopter = {
+                sprite = heavy_plane
+                priority = 20
+                active = no
+                type = strategic_bomber
+                need = { rhy_strategic_ornithopter_equipment = 1 }
+                categories = { category_strat_bomber }
+                land_air_wing_size = 50
+            }
+        }

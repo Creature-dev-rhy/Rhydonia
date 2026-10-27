@@ -1,0 +1,10 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_select_date_1600"
+        texturefile = "gfx/loadingscreens/rhydoniaplanetg.dds"
+    }
+    spriteType = {
+        name = "GFX_rhydonia_culture_map"
+        texturefile = "gfx/interface/rhydonia_culture_map.dds"
+    }
+}

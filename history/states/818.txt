@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 6129 2 }
+		set_state_flag = rhydonia_culture_hominid
 		owner = DSK
 		add_core_of = DSK
 		

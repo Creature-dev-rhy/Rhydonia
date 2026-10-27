@@ -1,0 +1,253 @@
+
+
+music_station = "base_music"
+
+music = {
+	song = "ethiopian_highlands"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			always = no
+		}
+		modifier = {
+			factor = 5
+			always = no
+			any_enemy_country = {
+				always = no
+			}
+		}
+		modifier = {
+			factor = 0.5
+			always = no
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "safer_grounds"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			always = no
+		}
+		modifier = {
+			factor = 2
+			always = no
+			any_enemy_country = {
+				always = no
+			}
+		}
+		modifier = {
+			factor = 0.5
+			always = no
+			has_war = yes
+		}
+	}
+}
+
+music = {
+	song = "threat_from_red_sea"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			always = no
+		}
+		modifier = {
+			factor = 5
+			always = no
+			any_enemy_country = {
+				always = no
+			}
+		}
+		modifier = {
+			factor = 0.5
+			always = no
+			has_war = no
+		}	
+	}
+}
+
+music = {
+	song = "wildlife_surroundings"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			always = no
+		}
+		modifier = {
+			factor = 5
+			always = no
+			any_enemy_country = {
+				always = no
+			}
+		}
+		modifier = {
+			factor = 0.5
+			always = no
+			has_war = no
+		}	
+	}
+}
+
+
+
+
+music = {
+	song = "cittadina_irresistibile"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			always = no
+		}
+		modifier = {
+			factor = 0.5
+			always = no
+			has_war = yes
+		}
+	}
+}
+
+music = {
+	song = "fino_a_combattere"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			always = no
+		}
+		modifier = {
+			factor = 0.5
+			always = no
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "la_marcia_dei_soldati"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			always = no
+		}
+		modifier = {
+			factor = 0.5
+			always = no
+			has_war = yes
+		}
+	}
+}
+
+music = {
+	song = "lotta_di_vecchi_amici"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			always = no
+		}
+		modifier = {
+			factor = 2
+			always = no
+			any_enemy_country = {
+				always = no
+			}
+		}
+		modifier = {
+			factor = 0.5
+			always = no
+			has_war = yes
+		}
+	}
+}
+
+
+
+
+music = {
+	song = "dem_vaterland"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = { always = no }
+		}
+		modifier = {
+			factor = 5
+			NOT = { always = no }
+			always = no
+		}	
+	}
+}
+
+music = {
+	song = "der_preis_fur_die_freiheit"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = { always = no }
+		}
+		modifier = {
+			factor = 2
+			NOT = { always = no }
+			always = no
+		}	
+	}
+}
+
+music = {
+	song = "die_parade"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = { always = no }
+		}
+		modifier = {
+			factor = 0.5
+			always = no
+			has_war = yes
+		}	
+	}
+}
+
+music = {
+	song = "tag_der_heimkehr"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = { always = no }
+		}
+		modifier = {
+			factor = 5
+			NOT = { always = no }
+			always = no
+		}
+		modifier = {
+			factor = 0.5
+			always = no
+			has_war = no
+		}	
+	}
+}

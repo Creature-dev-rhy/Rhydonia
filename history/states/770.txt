@@ -2,7 +2,7 @@
 state={
 	id=770
 	name="STATE_770"
-	manpower = 1221519
+	manpower = 1221019
 	
 	state_category = town
 	#impassable = yes
@@ -17,11 +17,14 @@ state={
 	}
 
 	history={
+		# Provisional culture: owner majority; check client map border.
+		set_state_flag = rhydonia_culture_palachian
 		owner = QWA
 		add_core_of = QWA
 		
 		
 		buildings = {
+ 5915 = { naval_base = 1 }
 			infrastructure = 2
 			
 			arms_factory = 0

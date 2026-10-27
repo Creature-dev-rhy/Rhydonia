@@ -2,7 +2,7 @@
 state={
 	id=1632
 	name="STATE_1632"
-	manpower = 1273177
+	manpower = 1272677
 	
 	state_category = town
 	#impassable = yes
@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_jurakyan
 		owner = ZAV
 		add_core_of = ZAV
 		

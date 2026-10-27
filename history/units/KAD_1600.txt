@@ -1,0 +1,23 @@
+division_template = { name = "Kadjistan Carapacian Line" regiments = { rhy_carapacian_line = { x = 0 y = 0 }
+rhy_carapacian_line = { x = 0 y = 1 }
+rhy_carapacian_line = { x = 0 y = 2 }
+rhy_carapacian_line = { x = 1 y = 0 }
+rhy_carapacian_line = { x = 1 y = 1 }
+rhy_carapacian_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Kadjistan Regiment"
+                location = 6952 division_template = "Kadjistan Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Kadjistan Regiment"
+                location = 8590 division_template = "Kadjistan Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Kadjistan Regiment"
+                location = 7730 division_template = "Kadjistan Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 11009 2 }
+		set_state_flag = rhydonia_culture_hominid
 		owner = GAV
 		add_core_of = GAV
 		

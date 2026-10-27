@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 7023 2 }
+		set_state_flag = rhydonia_culture_gehirnstahl
 		owner = KAV
 		add_core_of = KAV
 		

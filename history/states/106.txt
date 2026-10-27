@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_gehirnstahl
+		victory_points = { 1251 5 }
 		owner = MEI
 		add_core_of = MEI
 		

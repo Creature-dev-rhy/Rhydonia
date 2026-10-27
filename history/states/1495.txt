@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional administration: land border (26 map pixels). Review with client map.
+		owner = JUR
+		add_core_of = JUR
+		set_state_flag = rhydonia_culture_jurakyan
 		
 		
 		buildings = {

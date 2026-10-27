@@ -17,6 +17,9 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_hominid
+		owner = ROO
+		add_core_of = ROO
 		
 		
 		buildings = {

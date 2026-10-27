@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_gehirnstahl
 		owner = BRO
 		add_core_of = BRO
 		

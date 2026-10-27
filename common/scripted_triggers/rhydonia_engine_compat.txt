@@ -1,0 +1,20 @@
+# Generic helpers retained by the 1.19 research and faction systems.
+# Vanilla nation-specific branches have no counterpart in the 1600 scenario.
+
+is_controlled_by_ROOT_or_ally = {
+    CONTROLLER = {
+        OR = {
+            tag = ROOT
+            is_subject_of = ROOT
+            is_in_faction_with = ROOT
+        }
+    }
+}
+
+anti_submarine_strategy_required_trigger = {
+    has_war = yes
+}
+
+is_literally_china = {
+    always = no
+}

@@ -2,7 +2,7 @@
 state={
 	id=635
 	name="STATE_635"
-	manpower = 75931
+	manpower = 75431
 	
 	state_category = small_island
 	#impassable = yes
@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_gehirnstahl
 		owner = BOR
 		add_core_of = BOR
 		

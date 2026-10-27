@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional administration: land border (27 map pixels). Review with client map.
+		owner = SEX
+		add_core_of = SEX
+		set_state_flag = rhydonia_culture_hominid
 		
 		
 		buildings = {

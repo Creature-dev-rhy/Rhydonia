@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional administration: land border (15 map pixels). Review with client map.
+		owner = UHT
+		add_core_of = UHT
+		set_state_flag = rhydonia_culture_carapacian
 		
 		
 		buildings = {

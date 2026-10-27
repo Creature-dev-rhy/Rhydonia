@@ -1,0 +1,4 @@
+opinion_modifiers = {
+    refused_call_to_arms = { value = -30 decay = 1 }
+    came_to_our_aid = { value = 30 decay = 1 }
+}

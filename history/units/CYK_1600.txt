@@ -1,0 +1,33 @@
+division_template = { name = "Cykadia Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Cykadia Regiment"
+                location = 3618 division_template = "Cykadia Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Cykadia Regiment"
+                location = 3810 division_template = "Cykadia Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Cykadia Regiment"
+                location = 7190 division_template = "Cykadia Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Cykadia Regiment"
+                location = 5827 division_template = "Cykadia Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Cykadia Regiment"
+                location = 6918 division_template = "Cykadia Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

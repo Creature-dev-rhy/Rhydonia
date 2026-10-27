@@ -3,7 +3,7 @@ bookmarks = {
 		name = "CINDERS_AND_STEEL_BOOKMARK_LOC"
 		desc = "CINDERS_AND_STEEL_DESC_BOOKMARK_LOC"
 		date = 1600.1.1.12
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1600"
 		default = yes
 		default_country = "MED"
 		
@@ -18,8 +18,11 @@ bookmarks = {
 		}
 		
 		
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		JUR = { history = "RHY_JUR_BOOKMARK_DESC" }
+GEH = { history = "RHY_GEH_BOOKMARK_DESC" }
+UHT = { history = "RHY_UHT_BOOKMARK_DESC" }
+"---"={
+			history = "OTHER_RHYDONIA_1600_DESC"
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark, DO NOT TOUCH !

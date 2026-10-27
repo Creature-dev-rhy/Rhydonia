@@ -1,0 +1,12 @@
+rhydonia_culture_map = {
+    rhydonia_view_culture_map = {
+        icon = generic_political_reform
+        cost = 0
+        fire_only_once = no
+        visible = { always = yes }
+        available = { always = yes }
+        complete_effect = {
+            country_event = { id = rhydonia_cultures.1 days = 0 }
+        }
+    }
+}

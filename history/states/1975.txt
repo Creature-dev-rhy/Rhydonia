@@ -1,0 +1,10 @@
+state = {
+ id = 1975 name = "STATE_1975" manpower = 500
+ state_category = small_island
+ history = {
+  owner = UHT add_core_of = UHT
+  set_state_flag = rhydonia_culture_carapacian
+  buildings = { infrastructure = 1 }
+ }
+ provinces = { 15500 }
+}

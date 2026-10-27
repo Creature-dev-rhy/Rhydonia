@@ -2,7 +2,7 @@
 state={
 	id=521
 	name="STATE_521"
-	manpower = 5946052
+	manpower = 5945552
 	
 	state_category = megalopolis
 	#impassable = yes
@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_carapacian
 		owner = UHT
 		add_core_of = UHT
 		

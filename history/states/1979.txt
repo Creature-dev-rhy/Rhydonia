@@ -1,0 +1,10 @@
+state = {
+ id = 1979 name = "STATE_1979" manpower = 500
+ state_category = small_island
+ history = {
+  owner = QWA add_core_of = QWA
+  set_state_flag = rhydonia_culture_palachian
+  buildings = { infrastructure = 1 }
+ }
+ provinces = { 15503 }
+}

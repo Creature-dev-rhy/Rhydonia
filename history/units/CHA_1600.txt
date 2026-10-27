@@ -1,0 +1,38 @@
+division_template = { name = "Chardontia Jurakyan Line" regiments = { rhy_jurakyan_cavalry = { x = 0 y = 0 }
+rhy_jurakyan_cavalry = { x = 0 y = 1 }
+rhy_jurakyan_cavalry = { x = 0 y = 2 }
+rhy_jurakyan_cavalry = { x = 1 y = 0 }
+rhy_jurakyan_cavalry = { x = 1 y = 1 }
+rhy_jurakyan_cavalry = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Chardontia Regiment"
+                location = 5345 division_template = "Chardontia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Chardontia Regiment"
+                location = 10031 division_template = "Chardontia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Chardontia Regiment"
+                location = 10509 division_template = "Chardontia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Chardontia Regiment"
+                location = 10251 division_template = "Chardontia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Chardontia Regiment"
+                location = 2961 division_template = "Chardontia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Chardontia Regiment"
+                location = 10052 division_template = "Chardontia Jurakyan Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

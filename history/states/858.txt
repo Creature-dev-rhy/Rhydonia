@@ -17,6 +17,9 @@ state={
 	}
 
 	history={
+ victory_points = { 6389 2 }
+		# Provisional culture: owner majority; check client map border.
+		set_state_flag = rhydonia_culture_carapacian
 		owner = GAN
 		add_core_of = GAN
 		

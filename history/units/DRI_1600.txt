@@ -1,0 +1,28 @@
+division_template = { name = "Driobistan Carapacian Line" regiments = { rhy_carapacian_line = { x = 0 y = 0 }
+rhy_carapacian_line = { x = 0 y = 1 }
+rhy_carapacian_line = { x = 0 y = 2 }
+rhy_carapacian_line = { x = 1 y = 0 }
+rhy_carapacian_line = { x = 1 y = 1 }
+rhy_carapacian_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Driobistan Regiment"
+                location = 8137 division_template = "Driobistan Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Driobistan Regiment"
+                location = 4610 division_template = "Driobistan Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Driobistan Regiment"
+                location = 8511 division_template = "Driobistan Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Driobistan Regiment"
+                location = 2289 division_template = "Driobistan Carapacian Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

@@ -17,6 +17,10 @@ state={
 	}
 
 	history={
+		# Provisional administration: land border (6 map pixels). Review with client map.
+		owner = TAN
+		add_core_of = TAN
+		set_state_flag = rhydonia_culture_carapacian
 		
 		
 		buildings = {

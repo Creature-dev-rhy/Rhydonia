@@ -1,0 +1,260 @@
+technologies = {
+
+
+    rhy_hominid_formation = {
+        allow = { always = no }
+        research_cost = 0.1
+        start_year = 1600
+        enable_subunits = { rhy_hominid_line }
+        categories = { infantry_weapons }
+    }
+
+
+    rhy_carapacian_formation = {
+        allow = { always = no }
+        research_cost = 0.1
+        start_year = 1600
+        enable_subunits = { rhy_carapacian_line }
+        categories = { infantry_weapons }
+    }
+
+
+    rhy_jurakyan_formation = {
+        allow = { always = no }
+        research_cost = 0.1
+        start_year = 1600
+        enable_subunits = { rhy_jurakyan_cavalry }
+        categories = { infantry_weapons }
+    }
+
+
+    rhy_gehirnstahl_formation = {
+        allow = { always = no }
+        research_cost = 0.1
+        start_year = 1600
+        enable_subunits = { rhy_gehirnstahl_heavy_infantry }
+        categories = { infantry_weapons }
+    }
+
+
+    rhy_palachian_formation = {
+        allow = { always = no }
+        research_cost = 0.1
+        start_year = 1600
+        enable_subunits = { rhy_palachian_rangers }
+        categories = { infantry_weapons }
+    }
+
+
+    rhy_gehirnstahl_mechanics = {
+ enable_equipments = { rhy_mech_equipment_1 }
+ 
+        allow = { always = no }
+        research_cost = 0.1
+        start_year = 1605
+        enable_subunits = { rhy_gehirnstahl_mech }
+        categories = { infantry_weapons }
+    }
+
+
+    rhy_hominid_chevaliers = {
+ enable_equipments = { rhy_chevalier_equipment_1 }
+ 
+        allow = { always = no }
+        research_cost = 0.1
+        start_year = 1604
+        enable_subunits = { rhy_chevalier }
+        categories = { infantry_weapons }
+    }
+
+
+    rhy_magic_foundations = {
+    folder = { name = electronics_folder position = { x = 0 y = 0 } }
+    path = { leads_to_tech = rhy_magic_conduits research_cost_coeff = 1 }
+        
+        research_cost = 0.1
+        start_year = 1601
+        research_speed_factor = 0.02
+        categories = { electronics }
+    }
+
+
+    rhy_magic_conduits = {
+    folder = { name = electronics_folder position = { x = 0 y = 1 } }
+    path = { leads_to_tech = rhy_magic_wards research_cost_coeff = 1 }
+    allow = { has_tech = rhy_magic_foundations }
+        
+        research_cost = 0.1
+        start_year = 1604
+        local_resources_factor = 0.03
+        categories = { electronics }
+    }
+
+
+    rhy_magic_wards = {
+    folder = { name = electronics_folder position = { x = 0 y = 2 } }
+    allow = { has_tech = rhy_magic_conduits }
+        
+        research_cost = 0.1
+        start_year = 1607
+        category_all_infantry = { defense = 0.03 }
+        categories = { electronics }
+    }
+rhy_ornithopter_prototype = {
+        start_year = 1604
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_carapacian has_country_flag = rhydonia_ornithopter_complete }
+        folder = { name = bba_air_techs_folder position = { x = 0 y = 0 } }
+        path = { leads_to_tech = rhy_ornithopter_tactical research_cost_coeff = 1 }
+path = { leads_to_tech = rhy_ornithopter_improved research_cost_coeff = 1 }
+path = { leads_to_tech = rhy_ornithopter_strategic research_cost_coeff = 1 }
+        enable_equipments = { rhy_light_ornithopter_equipment_1 }
+        enable_subunits = { rhy_light_ornithopter }
+        categories = { light_air }
+        
+    }
+rhy_ornithopter_improved = {
+        start_year = 1607
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_carapacian has_tech = rhy_ornithopter_prototype }
+        folder = { name = bba_air_techs_folder position = { x = 0 y = 2 } }
+        path = { leads_to_tech = rhy_ornithopter_modern research_cost_coeff = 1 }
+        enable_equipments = { rhy_light_ornithopter_equipment_2 }
+        enable_subunits = { rhy_light_ornithopter }
+        categories = { light_air }
+        
+    }
+rhy_ornithopter_modern = {
+        start_year = 1610
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_carapacian has_tech = rhy_ornithopter_improved }
+        folder = { name = bba_air_techs_folder position = { x = 0 y = 3 } }
+        
+        enable_equipments = { rhy_light_ornithopter_equipment_3 }
+        enable_subunits = { rhy_light_ornithopter }
+        categories = { light_air }
+        
+    }
+rhy_ornithopter_tactical = {
+        start_year = 1605
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_carapacian has_tech = rhy_ornithopter_prototype }
+        folder = { name = bba_air_techs_folder position = { x = 2 y = 1 } }
+        path = { leads_to_tech = rhy_ornithopter_tactical_2 research_cost_coeff = 1 }
+        enable_equipments = { rhy_tactical_ornithopter_equipment_1 }
+        enable_subunits = { rhy_tactical_ornithopter }
+        categories = { light_air }
+        
+    }
+rhy_ornithopter_tactical_2 = {
+        start_year = 1607
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_carapacian has_tech = rhy_ornithopter_tactical }
+        folder = { name = bba_air_techs_folder position = { x = 2 y = 2 } }
+        path = { leads_to_tech = rhy_ornithopter_tactical_3 research_cost_coeff = 1 }
+        enable_equipments = { rhy_tactical_ornithopter_equipment_2 }
+        enable_subunits = { rhy_tactical_ornithopter }
+        categories = { light_air }
+        
+    }
+rhy_ornithopter_tactical_3 = {
+        start_year = 1610
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_carapacian has_tech = rhy_ornithopter_tactical_2 }
+        folder = { name = bba_air_techs_folder position = { x = 2 y = 3 } }
+        
+        enable_equipments = { rhy_tactical_ornithopter_equipment_3 }
+        enable_subunits = { rhy_tactical_ornithopter }
+        categories = { light_air }
+        
+    }
+rhy_ornithopter_strategic = {
+        start_year = 1607
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_carapacian has_tech = rhy_ornithopter_prototype }
+        folder = { name = bba_air_techs_folder position = { x = 4 y = 2 } }
+        path = { leads_to_tech = rhy_ornithopter_strategic_2 research_cost_coeff = 1 }
+        enable_equipments = { rhy_strategic_ornithopter_equipment_1 }
+        enable_subunits = { rhy_strategic_ornithopter }
+        categories = { light_air }
+        
+    }
+rhy_ornithopter_strategic_2 = {
+        start_year = 1610
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_carapacian has_tech = rhy_ornithopter_strategic }
+        folder = { name = bba_air_techs_folder position = { x = 4 y = 3 } }
+        
+        enable_equipments = { rhy_strategic_ornithopter_equipment_2 }
+        enable_subunits = { rhy_strategic_ornithopter }
+        categories = { light_air }
+        
+    }
+rhy_jurakyan_armored_cavalry = {
+        start_year = 1600
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_jurakyan }
+        folder = { name = nsb_armour_folder position = { x = 0 y = 0 } }
+        path = { leads_to_tech = rhy_cavalry_2 research_cost_coeff = 1 }
+path = { leads_to_tech = rhy_heavy_cavalry_1 research_cost_coeff = 1 }
+        enable_equipments = { rhy_cavalry_equipment_1 }
+        enable_subunits = { rhy_jurakyan_armored_cavalry }
+        categories = { armor }
+        
+    }
+rhy_cavalry_2 = {
+        start_year = 1602
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_jurakyan has_tech = rhy_jurakyan_armored_cavalry }
+        folder = { name = nsb_armour_folder position = { x = 0 y = 1 } }
+        path = { leads_to_tech = rhy_cavalry_3 research_cost_coeff = 1 }
+        enable_equipments = { rhy_cavalry_equipment_2 }
+        enable_subunits = { rhy_jurakyan_armored_cavalry }
+        categories = { armor }
+        
+    }
+rhy_cavalry_3 = {
+        start_year = 1604
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_jurakyan has_tech = rhy_cavalry_2 }
+        folder = { name = nsb_armour_folder position = { x = 0 y = 2 } }
+        path = { leads_to_tech = rhy_cavalry_4 research_cost_coeff = 1 }
+        enable_equipments = { rhy_cavalry_equipment_3 }
+        enable_subunits = { rhy_jurakyan_armored_cavalry }
+        categories = { armor }
+        
+    }
+rhy_cavalry_4 = {
+        start_year = 1607
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_jurakyan has_tech = rhy_cavalry_3 }
+        folder = { name = nsb_armour_folder position = { x = 0 y = 3 } }
+        
+        enable_equipments = { rhy_cavalry_equipment_4 }
+        enable_subunits = { rhy_jurakyan_armored_cavalry }
+        categories = { armor }
+        
+    }
+rhy_heavy_cavalry_1 = {
+        start_year = 1603
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_jurakyan has_tech = rhy_jurakyan_armored_cavalry }
+        folder = { name = nsb_armour_folder position = { x = 2 y = 1 } }
+        path = { leads_to_tech = rhy_heavy_cavalry_2 research_cost_coeff = 1 }
+        enable_equipments = { rhy_heavy_cavalry_equipment_1 }
+        enable_subunits = { rhy_jurakyan_heavy_cavalry }
+        categories = { armor }
+        
+    }
+rhy_heavy_cavalry_2 = {
+        start_year = 1605
+        research_cost = 1.5
+        allow = { has_country_flag = rhydonia_culture_jurakyan has_tech = rhy_heavy_cavalry_1 }
+        folder = { name = nsb_armour_folder position = { x = 2 y = 2 } }
+        
+        enable_equipments = { rhy_heavy_cavalry_equipment_2 }
+        enable_subunits = { rhy_jurakyan_heavy_cavalry }
+        categories = { armor }
+        
+    }
+}

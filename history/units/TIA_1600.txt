@@ -1,0 +1,28 @@
+division_template = { name = "Tiago Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Tiago Regiment"
+                location = 5705 division_template = "Tiago Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Tiago Regiment"
+                location = 2031 division_template = "Tiago Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Tiago Regiment"
+                location = 6068 division_template = "Tiago Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Tiago Regiment"
+                location = 7461 division_template = "Tiago Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_hominid
 		owner = ALM
 		add_core_of = ALM
 buildings = {
@@ -29,7 +30,7 @@ buildings = {
 		}
 		
 	
-		1936.1.1 = {
+		1600.1.1 = {
 			owner = ALM
 			add_core_of = ALM
 		}

@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_palachian
 		owner = SEX
 		add_core_of = SEX
 		
@@ -35,7 +36,7 @@ state={
 		
 	}
 
-	provinces={
+	provinces={ 15522 
 		8339 8340 8341 8342 8343 8344 8345 8346 8347 8348 8349 8350 
 	}
 	local_supplies=0.0 

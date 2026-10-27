@@ -1,0 +1,38 @@
+division_template = { name = "Alderson Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Alderson Regiment"
+                location = 8784 division_template = "Alderson Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Alderson Regiment"
+                location = 9995 division_template = "Alderson Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Alderson Regiment"
+                location = 9807 division_template = "Alderson Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Alderson Regiment"
+                location = 9630 division_template = "Alderson Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Alderson Regiment"
+                location = 7710 division_template = "Alderson Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Alderson Regiment"
+                location = 1488 division_template = "Alderson Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

@@ -1,0 +1,12 @@
+state = {
+ id = 1981 name = "STATE_1981" manpower = 500
+ state_category = small_island
+ history = {
+ victory_points = { 15510 2 }
+  owner = GAV add_core_of = GAV
+  set_state_flag = rhydonia_culture_hominid
+  buildings = {
+ 15510 = { naval_base = 1 } infrastructure = 1 }
+ }
+ provinces = { 15510 }
+}

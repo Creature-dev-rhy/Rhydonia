@@ -1,0 +1,10 @@
+state = {
+ id = 1980 name = "STATE_1980" manpower = 351
+ state_category = small_island
+ history = {
+  owner = SEX add_core_of = SEX
+  set_state_flag = rhydonia_culture_hominid
+  buildings = { infrastructure = 1 }
+ }
+ provinces = { 15509 }
+}

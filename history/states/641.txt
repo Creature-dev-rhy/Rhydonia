@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 5043 2 }
+		set_state_flag = rhydonia_culture_carapacian
 		owner = GAN
 		add_core_of = GAN
 		

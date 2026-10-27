@@ -1,0 +1,6 @@
+scripted_gui = {
+    rhydonia_culture_map_ui = {
+        context_type = decision_category
+        window_name = "rhydonia_culture_map_window"
+    }
+}

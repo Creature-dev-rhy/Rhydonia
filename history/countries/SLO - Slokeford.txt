@@ -1,19 +1,13 @@
-capital = 1
+set_country_flag = rhydonia_culture_hominid
+capital = 1421
+oob = "SLO_1600"
 
+recruit_character = RHY_SLO_scholar
 set_research_slots = 3
-
 set_technology = {
-    infantry_weapons = 1
-    tech_support = 1
-    tech_engineers = 1
-    tech_recon = 1
-    gw_artillery = 1
-    interwar_antiair = 1
-    fuel_silos = 1
-    synth_oil_experiments = 1
-    early_fighter = 1
-    early_bomber = 1
-    naval_bomber1 = 1
+ tech_support = 1
+    infantry_weapons = 1 # Baseline equipment needed by starting OOB
+    rhy_hominid_formation = 1
 }
 
 set_politics = {
@@ -28,12 +22,16 @@ set_popularities = {
 }
 
 create_country_leader = {
-    name = "Leader Name"
-    picture = "gfx/leaders/SLO/SLO_leader.dds"
-    expire = "1965.1.1"
-    ideology = combineism
+    name = "Tessa Fenn"
+    picture = "gfx/leaders/Rhydonia/culture_hominid.dds"
+    expire = "1629.1.1"
+    ideology = rhy_combineism
     traits = {
     }
 }
 
-# No OOB generated
+
+
+recruit_character = RHY_SLO_commander
+
+add_ideas = { civilian_economy volunteer_only export_focus }

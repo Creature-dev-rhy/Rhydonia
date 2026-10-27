@@ -17,6 +17,8 @@ state={
 	}
 
 	history={
+ victory_points = { 12941 2 }
+		set_state_flag = rhydonia_culture_palachian
 		owner = EKE
 		add_core_of = EKE
 		

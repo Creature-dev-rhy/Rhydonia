@@ -1,0 +1,38 @@
+division_template = { name = "Olland Hominid Line" regiments = { rhy_hominid_line = { x = 0 y = 0 }
+rhy_hominid_line = { x = 0 y = 1 }
+rhy_hominid_line = { x = 0 y = 2 }
+rhy_hominid_line = { x = 1 y = 0 }
+rhy_hominid_line = { x = 1 y = 1 }
+rhy_hominid_line = { x = 1 y = 2 } } }
+units = {
+division = {
+                name = "1. Olland Regiment"
+                location = 1232 division_template = "Olland Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "2. Olland Regiment"
+                location = 8857 division_template = "Olland Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "3. Olland Regiment"
+                location = 1236 division_template = "Olland Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "4. Olland Regiment"
+                location = 8168 division_template = "Olland Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "5. Olland Regiment"
+                location = 8937 division_template = "Olland Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+division = {
+                name = "6. Olland Regiment"
+                location = 1271 division_template = "Olland Hominid Line"
+                start_experience_factor = 0.2 start_equipment_factor = 0.85
+            }
+}

@@ -1,0 +1,99 @@
+
+music_station = "base_music"
+
+music = {
+	song = "londoninflames"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = { always = no }
+			NOT = {
+				OR = {
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+				}
+			}
+			126 = { always = no }
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+			}
+			date < 1936.01.02
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				126 = {
+					NOT = { always = no }
+				}
+				always = no
+			}
+		}		
+		modifier = {
+			factor = 5
+			always = no
+		}
+	}
+}
+
+music = {
+	song = "operationcompas"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = { always = no }
+			NOT = {
+				OR = {
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			always = no
+		}
+	}
+}
+
+music = {
+	song = "heroesofelalamein"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = { always = no }
+			NOT = {
+				OR = {
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+					always = no
+				}
+			}
+		}		
+		modifier = {
+			factor = 5
+			always = no
+		}
+	}
+}

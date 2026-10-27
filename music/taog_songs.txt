@@ -1,0 +1,152 @@
+music_station = "base_music"
+
+
+music = {
+	song = "australia_music_track"
+
+	chance = {
+		base = 1
+
+		modifier = {
+			factor = 0.1
+			NOT = { always = no }
+		}
+		modifier = {
+			factor = 2.5
+			always = no
+			has_war = no
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				always = no
+			}
+			always = no
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "march_of_determination"
+
+	chance = {
+		base = 1
+
+		modifier = {
+			factor = 0.05
+			NOT = { always = no }
+		}
+		modifier = {
+			factor = 5
+			always = no
+			has_war = yes
+		}
+		modifier = {
+			factor = 5
+			always = no
+			has_war = yes
+		}
+	}
+}
+
+
+music = {
+	song = "free_at_last"
+
+	chance = {
+		base = 1
+
+		modifier = {
+			factor = 0.1
+			NOT = { always = no }
+		}
+		modifier = {
+			factor = 2.5
+			always = no
+			has_war = no
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				always = no
+			}
+			always = no
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "the_dutch_east_indies_music_track"
+
+	chance = {
+		base = 1
+
+		modifier = {
+			factor = 0.05
+			NOT = { always = no }
+		}
+		modifier = {
+			factor = 5
+			always = no
+			has_war = yes
+		}
+		modifier = {
+			factor = 5
+			always = no
+			has_war = yes
+		}
+	}
+}
+
+
+music = {
+	song = "march_of_the_free"
+
+	chance = {
+		base = 1
+
+		modifier = {
+			factor = 0.1
+			NOT = { always = no }
+		}
+		modifier = {
+			factor = 2.5
+			always = no
+			has_war = no
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				always = no
+			}
+			always = no
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "the_struggle_for_power"
+
+	chance = {
+		base = 1
+
+		modifier = {
+			factor = 0.05
+			NOT = { always = no }
+		}
+		modifier = {
+			factor = 5
+			always = no
+			has_war = yes
+		}
+		modifier = {
+			factor = 5
+			always = no
+			has_war = yes
+		}
+	}
+}
+

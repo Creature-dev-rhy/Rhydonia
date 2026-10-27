@@ -17,6 +17,7 @@ state={
 	}
 
 	history={
+		set_state_flag = rhydonia_culture_palachian
 		owner = LEM
 		add_core_of = LEM
 		
